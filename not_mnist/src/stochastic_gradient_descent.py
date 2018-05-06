@@ -1,6 +1,7 @@
 import tensorflow as tf
 
-from not_mnist_helper import get_datasets, reformat, accuracy
+from not_mnist_helper import get_datasets, reformat
+from data_helper import accuracy
 from constants import *
 
 
@@ -134,7 +135,7 @@ def main():
     stochastic_gradient_descent_graph = tf.Graph()
 
     set_tf_variables_for_stochastic_gradient_descent(
-        stochastic_gradient_descent_graph)
+        stochastic_gradient_descent_graph, valid_dataset, test_dataset)
 
     run_stochastic_gradient_descent()
 

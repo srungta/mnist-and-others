@@ -15,6 +15,7 @@ def main():
     model.compile(optimizer='sgd',
                   loss='categorical_crossentropy',
                   metrics=['accuracy'])
+    model.summary()
     model.fit(valid_dataset, valid_labels, epochs=epochs,
               validation_data=(test_dataset, test_labels))
     score = model.evaluate(test_dataset, test_labels, verbose=1)

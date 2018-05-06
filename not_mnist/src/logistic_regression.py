@@ -1,8 +1,10 @@
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, accuracy_score
 import time
 
-from not_mnist_helper import print_dataset_details, read_from_pickle, get_random_image, show_image, get_datasets, get_overlaps, flatten_dataset
+from not_mnist_helper import get_datasets
+from file_helper import read_from_pickle
+from data_helper import print_dataset_details, get_random_image, show_image, get_overlaps, flatten_dataset, accuracy
 from setup import get_dataset_filenames
 
 
@@ -40,6 +42,7 @@ def perform_logistics_regression(X_train, train_labels, X_test, test_labels):
     print("Training took ", train_end - start_train, " time.")
     y_pred = lg.predict(X_test)
     cmatrix = confusion_matrix(test_labels, y_pred)
+    print('accuracy : ',accuracy_score(test_labels, y_pred))
     print("testing took ", time.clock() - train_end, " time.")
     print(cmatrix)
 
