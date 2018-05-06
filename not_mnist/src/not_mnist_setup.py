@@ -13,7 +13,6 @@ import sys
 import tarfile
 
 from constants import *
-import constants
 
 np.random.seed(NUMPY_SEED)
 

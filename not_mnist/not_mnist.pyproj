@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9041ab0c-71d6-4983-b772-9221c5589492</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>src\not_mnist.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,10 +24,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="src\constants.py" />
-    <Compile Include="src\not_mnist.py" />
-    <Compile Include="src\not_mnist_analysis_logistic_regression.py" />
-    <Compile Include="src\not_mnist_analysis_logistic_regression_keras.py" />
-    <Compile Include="src\not_mnist_analysis_stochastic_gradient_descent.py" />
+    <Compile Include="src\logistic_regression.py" />
+    <Compile Include="src\logistic_regression_keras.py" />
+    <Compile Include="src\stochastic_gradient_descent.py" />
     <Compile Include="src\not_mnist_helper.py" />
     <Compile Include="src\not_mnist_setup.py" />
   </ItemGroup>
