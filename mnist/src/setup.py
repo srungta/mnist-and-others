@@ -1,9 +1,8 @@
 from __future__ import print_function
 from keras.datasets import mnist
-import pickle
 
 from commonconstants import MNIST_FLATTENED_NORMALISED_PICKLE, MNIST_PICKLE
-from file_helper import file_exists, read_from_pickle
+from file_helper import file_exists, read_from_pickle, save_as_pickle
 from data_helper import flatten_dataset
 
 def setup_flattened_normalised_mnist_pickle():
@@ -31,8 +30,7 @@ def setup_flattened_normalised_mnist_pickle():
         'x_test': x_test, 
         'y_test': y_test
         }
-    with open(destination_file, 'wb') as f:
-        pickle.dump(dataset, f, pickle.HIGHEST_PROTOCOL)
+    save_as_pickle(dataset, destination_file)
 
 def setup_mnist_pickle():
     print('Setting up raw mnist pickle:')
@@ -56,9 +54,7 @@ def setup_mnist_pickle():
         'x_test': x_test, 
         'y_test': y_test
         }
-    with open(destination_file, 'wb') as f:
-        pickle.dump(dataset, f, pickle.HIGHEST_PROTOCOL)
-
+    save_as_pickle(dataset, destination_file)
 
 if __name__ == "__main__":
     setup_flattened_normalised_mnist_pickle()

@@ -1,6 +1,5 @@
 # imports
 from __future__ import print_function
-import imports
 from IPython.display import display, Image
 from six.moves import cPickle as pickle
 from six.moves.urllib.request import urlretrieve
@@ -13,9 +12,10 @@ import sys
 import tarfile
 
 from constants import *
+from commonconstants import NOT_MNIST_ZIPS_DIR, NOT_MNIST_IMAGES_DIR, NOT_MNIST_PICKLES_DIR
+from file_helper import get_file_name, join_paths
 
 np.random.seed(NUMPY_SEED)
-
 last_percent_reported = None
 
 
@@ -36,7 +36,7 @@ def download_progress_hook(count, blockSize, totalSize):
 
 
 def maybe_download(filename, expected_bytes, force=False):
-    dest_filename = os.path.join(DATA_FOLDER_ROOT, filename)
+    dest_filename = os.path.join(NOT_MNIST_ZIPS_DIR, filename)
     if force or not os.path.exists(dest_filename):
         print('Attempting to download:', filename)
         filename, _ = urlretrieve(
@@ -53,7 +53,8 @@ def maybe_download(filename, expected_bytes, force=False):
 
 
 def maybe_extract(filename, force=False):
-    root = os.path.splitext(os.path.splitext(filename)[0])[0]  # remove .tar.gz
+    root = os.path.splitext(os.path.splitext(get_file_name(filename))[0])[0]  # remove .tar.gz
+    root = join_paths(NOT_MNIST_IMAGES_DIR, root)
     if os.path.isdir(root) and not force:
         # You may override by setting force=True.
         print('%s already present - Skipping extraction of %s.' %
@@ -62,7 +63,7 @@ def maybe_extract(filename, force=False):
         print('Extracting data for %s. This may take a while. Please wait.' % root)
         tar = tarfile.open(filename)
         sys.stdout.flush()
-        tar.extractall(DATA_FOLDER_ROOT)
+        tar.extractall(NOT_MNIST_IMAGES_DIR)
         tar.close()
     data_folders = [
         os.path.join(root, d) for d in sorted(os.listdir(root))
@@ -204,7 +205,7 @@ def main(train_size, valid_size, test_size, filename):
     train_dataset, train_labels = randomize(train_dataset, train_labels)
     test_dataset, test_labels = randomize(test_dataset, test_labels)
     valid_dataset, valid_labels = randomize(valid_dataset, valid_labels)
-    pickle_file = os.path.join(DATA_FOLDER_ROOT, filename)
+    pickle_file = os.path.join(NOT_MNIST_PICKLES_DIR, filename)
 
     try:
         f = open(pickle_file, 'wb')
@@ -225,6 +226,6 @@ def main(train_size, valid_size, test_size, filename):
 
 if __name__ == '__main__':
     # Large
-    # main(TRAINING_SIZE, VALIDATION_SIZE, TEST_SIZE, FINAL_DATASET_FILENAME)    
+    main(TRAINING_SIZE, VALIDATION_SIZE, TEST_SIZE, FINAL_DATASET_FILENAME)    
     # Small
     main(TRAINING_SIZE_SMALL, VALIDATION_SIZE_SMALL, TEST_SIZE_SMALL, FINAL_DATASET_FILENAME_SMALL)

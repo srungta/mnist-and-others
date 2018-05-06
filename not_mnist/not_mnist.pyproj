@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9041ab0c-71d6-4983-b772-9221c5589492</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>src\setup.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,7 +27,7 @@
     <Compile Include="src\logistic_regression_keras.py" />
     <Compile Include="src\stochastic_gradient_descent.py" />
     <Compile Include="src\not_mnist_helper.py" />
-    <Compile Include="src\not_mnist_setup.py" />
+    <Compile Include="src\setup.py" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\common\common.pyproj">

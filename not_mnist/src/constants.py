@@ -1,9 +1,5 @@
 import os
 
-#============= FOLDERS PATHS ========================================
-NOT_MNIST_DATA_DIR = os.path.join(DATA_DIR,'not_mnist')
-NOT_MNIST_PICKLES_DIR = os.path.join(NOT_MNIST_DATA_DIR,'pickles')
-
 #====================== FILE PATHS ==================================
 
 FINAL_DATASET_FILENAME = 'notMNIST.pickle'

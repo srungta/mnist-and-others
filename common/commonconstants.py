@@ -11,6 +11,8 @@ MNIST_PICKLES_DIR = os.path.join(MNIST_DATA_DIR,'pickles')
 #--------- NOT MNIST ---------
 NOT_MNIST_DATA_DIR = os.path.join(DATA_DIR,'not_mnist')
 NOT_MNIST_PICKLES_DIR = os.path.join(NOT_MNIST_DATA_DIR,'pickles')
+NOT_MNIST_ZIPS_DIR = os.path.join(NOT_MNIST_DATA_DIR,'zips')
+NOT_MNIST_IMAGES_DIR = os.path.join(NOT_MNIST_DATA_DIR,'images')
 
 #====================== FILE PATHS ==================================
 #----------- MNIST ---------

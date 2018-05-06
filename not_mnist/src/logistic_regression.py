@@ -3,7 +3,7 @@ from sklearn.metrics import confusion_matrix
 import time
 
 from not_mnist_helper import print_dataset_details, read_from_pickle, get_random_image, show_image, get_datasets, get_overlaps, flatten_dataset
-from not_mnist_setup import get_dataset_filenames
+from setup import get_dataset_filenames
 
 
 def check_image_sanity():
