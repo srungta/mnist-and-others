@@ -1,2 +1,0 @@
-from constants import DATA_FOLDER_ROOT
-print(DATA_FOLDER_ROOT)
