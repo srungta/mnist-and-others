@@ -1,5 +1,5 @@
 from file_helper import read_from_pickle, file_exists
-from constants import MNIST_FLATTENED_NORMALISED_PICKLE, MNIST_PICKLE
+from commonconstants import MNIST_FLATTENED_NORMALISED_PICKLE, MNIST_PICKLE
 from setup import setup_flattened_normalised_mnist_pickle, setup_mnist_pickle
 
 def get_mnist_data(flattened = True):

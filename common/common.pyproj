@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8b75cef9-94e8-45a4-9462-8efc0afba1b4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>constants.py</StartupFile>
+    <StartupFile>commonconstants.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="constants.py" />
+    <Compile Include="commonconstants.py" />
     <Compile Include="data_helper.py">
       <SubType>Code</SubType>
     </Compile>

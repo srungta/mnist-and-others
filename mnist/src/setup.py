@@ -2,7 +2,7 @@ from __future__ import print_function
 from keras.datasets import mnist
 import pickle
 
-from constants import MNIST_FLATTENED_NORMALISED_PICKLE, MNIST_PICKLE
+from commonconstants import MNIST_FLATTENED_NORMALISED_PICKLE, MNIST_PICKLE
 from file_helper import file_exists, read_from_pickle
 from data_helper import flatten_dataset
 

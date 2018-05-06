@@ -2,7 +2,7 @@ from keras.layers import Input, Dense
 from keras.models import Model
 import numpy as np
 
-from constants import MNIST_FLATTENED_NORMALISED_PICKLE
+from commonconstants import MNIST_FLATTENED_NORMALISED_PICKLE
 from file_helper import read_from_pickle
 from mnist_helper import get_mnist_data
 
