@@ -2,15 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>067a5d9e-c6bc-448b-92f1-ccd49c4beffc</ProjectGuid>
+    <ProjectGuid>8b75cef9-94e8-45a4-9462-8efc0afba1b4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mnist_and_others.py</StartupFile>
+    <StartupFile>constants.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>mnist-and-others</Name>
-    <RootNamespace>mnist-and-others</RootNamespace>
+    <Name>common</Name>
+    <RootNamespace>common</RootNamespace>
+    <InterpreterId>Global|VisualStudio|deeplearning</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="mnist_and_others.py" />
+    <Compile Include="constants.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|deeplearning" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
