@@ -2,8 +2,9 @@ from keras.layers import Input, Dense
 from keras.models import Model
 import numpy as np
 
-from pickle_helper import read_from_pickle
-from constants import MNIST_NORMALISED_PICKLE
+from constants import MNIST_FLATTENED_NORMALISED_PICKLE
+from file_helper import read_from_pickle
+from mnist_helper import get_mnist_data
 
 # HYPERPARAMETERS
 epochs = 10
@@ -13,26 +14,19 @@ train_size = 6000
 test_size = 1000
 
 # SET UP MODELS
-
 input_img = Input(shape=(784,))
-
 encoded = Dense(encoding_dim, activation='relu')(input_img)
 decoded = Dense(784, activation='sigmoid')(encoded)
-
 autoencoder = Model(input_img, decoded)
 encoder = Model(input_img, encoded)
-
 encoded_input = Input(shape=(encoding_dim,))
 decoder_layer = autoencoder.layers[-1]
 decoder = Model(encoded_input, decoder_layer(encoded_input))
-
 autoencoder.compile(optimizer='adadelta', loss='binary_crossentropy')
 
 # SET UP DATA
-dataset = read_from_pickle(MNIST_NORMALISED_PICKLE)
-x_train = dataset['x_train']
-x_test = dataset['x_test']
 
+x_train ,_ , x_test ,_ = get_mnist_data(True)
 print(x_train.shape)
 print(x_test.shape)
 
@@ -59,13 +53,13 @@ import matplotlib.pyplot as plt
 n = 10
 plt.figure(figsize=(20, 4))
 for i in range(n):
-    ax = plt.subplot(2, n, i+1)
+    ax = plt.subplot(2, n, i + 1)
     plt.imshow(x_test[i].reshape(28, 28))
     plt.gray()
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
 
-    ax = plt.subplot(2, n, i+1 + n)
+    ax = plt.subplot(2, n, i + 1 + n)
     plt.imshow(decoded_imgs[i].reshape(28, 28))
     plt.gray()
     ax.get_xaxis().set_visible(False)

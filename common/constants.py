@@ -9,5 +9,6 @@ NOT_MNIST_DATA_DIR = os.path.join(DATA_DIR,'not_mnist')
 NOT_MNIST_PICKLES_DIR = os.path.join(NOT_MNIST_DATA_DIR,'pickles')
 
 # File paths
-MNIST_NORMALISED_PICKLE = os.path.join(MNIST_PICKLES_DIR,'mnist_normalised.pickle')
+MNIST_FLATTENED_NORMALISED_PICKLE = os.path.join(MNIST_PICKLES_DIR,'mnist_normalised.pickle')
+MNIST_PICKLE = os.path.join(MNIST_PICKLES_DIR,'mnist.pickle')
 
