@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9041ab0c-71d6-4983-b772-9221c5589492</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>not_mnist.py</StartupFile>
+    <StartupFile>src\not_mnist.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,13 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="constants.py" />
-    <Compile Include="not_mnist.py" />
-    <Compile Include="not_mnist_analysis_logistic_regression.py" />
-    <Compile Include="not_mnist_analysis_logistic_regression_keras.py" />
-    <Compile Include="not_mnist_analysis_stochastic_gradient_descent.py" />
-    <Compile Include="not_mnist_helper.py" />
-    <Compile Include="not_mnist_setup.py" />
+    <Compile Include="src\constants.py" />
+    <Compile Include="src\not_mnist.py" />
+    <Compile Include="src\not_mnist_analysis_logistic_regression.py" />
+    <Compile Include="src\not_mnist_analysis_logistic_regression_keras.py" />
+    <Compile Include="src\not_mnist_analysis_stochastic_gradient_descent.py" />
+    <Compile Include="src\not_mnist_helper.py" />
+    <Compile Include="src\not_mnist_setup.py" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\common\common.pyproj">
@@ -39,6 +39,9 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|VisualStudio|deeplearning" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

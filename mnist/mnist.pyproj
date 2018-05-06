@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8c63db55-52d4-4384-add9-d95c1c97cbd9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mnist.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,12 +23,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="autoencoder.py" />
-    <Compile Include="install_mnist.py" />
-    <Compile Include="keras_mnist_cnn.py" />
-    <Compile Include="keras_mnist_mlp.py" />
-    <Compile Include="mnist.py" />
-    <Compile Include="mnist_utils.py" />
+    <Compile Include="src\autoencoder.py" />
+    <Compile Include="src\install_mnist.py" />
+    <Compile Include="src\keras_mnist_cnn.py" />
+    <Compile Include="src\keras_mnist_mlp.py" />
+    <Compile Include="src\mnist.py" />
+    <Compile Include="src\mnist_utils.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|VisualStudio|deeplearning" />
@@ -38,6 +39,9 @@
       <Project>{8b75cef9-94e8-45a4-9462-8efc0afba1b4}</Project>
       <Private>True</Private>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
