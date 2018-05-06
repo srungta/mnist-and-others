@@ -1,0 +1,1574 @@
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60588 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(200, 784)
+(10, 784)
+Train on 200 samples, validate on 10 samples
+Epoch 1/50
+2018-05-04 23:44:30.627425: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:44:30.633673: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:44:30.638677: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:44:30.643687: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:44:30.649714: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:44:30.656206: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:44:30.663001: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:44:30.673898: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+200/200 [==============================] - 3s 13ms/step - loss: 0.6926 - val_loss: 0.6916
+Epoch 2/50
+200/200 [==============================] - 0s 157us/step - loss: 0.6919 - val_loss: 0.6909
+Epoch 3/50
+200/200 [==============================] - 0s 140us/step - loss: 0.6911 - val_loss: 0.6902
+Epoch 4/50
+200/200 [==============================] - 0s 135us/step - loss: 0.6902 - val_loss: 0.6894
+Epoch 5/50
+200/200 [==============================] - 0s 130us/step - loss: 0.6894 - val_loss: 0.6886
+Epoch 6/50
+200/200 [==============================] - 0s 135us/step - loss: 0.6885 - val_loss: 0.6877
+Epoch 7/50
+200/200 [==============================] - 0s 130us/step - loss: 0.6875 - val_loss: 0.6867
+Epoch 8/50
+200/200 [==============================] - 0s 135us/step - loss: 0.6864 - val_loss: 0.6857
+Epoch 9/50
+200/200 [==============================] - 0s 120us/step - loss: 0.6853 - val_loss: 0.6845
+Epoch 10/50
+200/200 [==============================] - 0s 135us/step - loss: 0.6840 - val_loss: 0.6832
+Epoch 11/50
+200/200 [==============================] - 0s 140us/step - loss: 0.6826 - val_loss: 0.6818
+Epoch 12/50
+200/200 [==============================] - 0s 145us/step - loss: 0.6810 - val_loss: 0.6802
+Epoch 13/50
+200/200 [==============================] - 0s 135us/step - loss: 0.6793 - val_loss: 0.6785
+Epoch 14/50
+200/200 [==============================] - 0s 125us/step - loss: 0.6774 - val_loss: 0.6765
+Epoch 15/50
+200/200 [==============================] - 0s 140us/step - loss: 0.6752 - val_loss: 0.6743
+Epoch 16/50
+200/200 [==============================] - 0s 135us/step - loss: 0.6728 - val_loss: 0.6719
+Epoch 17/50
+200/200 [==============================] - 0s 165us/step - loss: 0.6702 - val_loss: 0.6692
+Epoch 18/50
+200/200 [==============================] - 0s 140us/step - loss: 0.6672 - val_loss: 0.6663
+Epoch 19/50
+200/200 [==============================] - 0s 140us/step - loss: 0.6639 - val_loss: 0.6629
+Epoch 20/50
+200/200 [==============================] - 0s 140us/step - loss: 0.6603 - val_loss: 0.6591
+Epoch 21/50
+200/200 [==============================] - 0s 105us/step - loss: 0.6561 - val_loss: 0.6550
+Epoch 22/50
+200/200 [==============================] - 0s 145us/step - loss: 0.6515 - val_loss: 0.6505
+Epoch 23/50
+200/200 [==============================] - 0s 130us/step - loss: 0.6466 - val_loss: 0.6455
+Epoch 24/50
+200/200 [==============================] - 0s 110us/step - loss: 0.6411 - val_loss: 0.6400
+Epoch 25/50
+200/200 [==============================] - 0s 135us/step - loss: 0.6351 - val_loss: 0.6341
+Epoch 26/50
+200/200 [==============================] - 0s 125us/step - loss: 0.6286 - val_loss: 0.6276
+Epoch 27/50
+200/200 [==============================] - 0s 140us/step - loss: 0.6215 - val_loss: 0.6205
+Epoch 28/50
+200/200 [==============================] - 0s 165us/step - loss: 0.6137 - val_loss: 0.6129
+Epoch 29/50
+200/200 [==============================] - 0s 135us/step - loss: 0.6054 - val_loss: 0.6048
+Epoch 30/50
+200/200 [==============================] - 0s 145us/step - loss: 0.5965 - val_loss: 0.5961
+Epoch 31/50
+200/200 [==============================] - 0s 130us/step - loss: 0.5870 - val_loss: 0.5868
+Epoch 32/50
+200/200 [==============================] - 0s 145us/step - loss: 0.5769 - val_loss: 0.5769
+Epoch 33/50
+200/200 [==============================] - 0s 125us/step - loss: 0.5661 - val_loss: 0.5667
+Epoch 34/50
+200/200 [==============================] - 0s 115us/step - loss: 0.5550 - val_loss: 0.5561
+Epoch 35/50
+200/200 [==============================] - 0s 120us/step - loss: 0.5435 - val_loss: 0.5451
+Epoch 36/50
+200/200 [==============================] - 0s 150us/step - loss: 0.5316 - val_loss: 0.5338
+Epoch 37/50
+200/200 [==============================] - 0s 145us/step - loss: 0.5195 - val_loss: 0.5221
+Epoch 38/50
+200/200 [==============================] - 0s 140us/step - loss: 0.5070 - val_loss: 0.5105
+Epoch 39/50
+200/200 [==============================] - 0s 135us/step - loss: 0.4945 - val_loss: 0.4986
+Epoch 40/50
+200/200 [==============================] - 0s 130us/step - loss: 0.4819 - val_loss: 0.4870
+Epoch 41/50
+200/200 [==============================] - 0s 125us/step - loss: 0.4696 - val_loss: 0.4752
+Epoch 42/50
+200/200 [==============================] - 0s 105us/step - loss: 0.4572 - val_loss: 0.4640
+Epoch 43/50
+200/200 [==============================] - 0s 150us/step - loss: 0.4453 - val_loss: 0.4530
+Epoch 44/50
+200/200 [==============================] - 0s 135us/step - loss: 0.4339 - val_loss: 0.4423
+Epoch 45/50
+200/200 [==============================] - 0s 140us/step - loss: 0.4228 - val_loss: 0.4321
+Epoch 46/50
+200/200 [==============================] - 0s 135us/step - loss: 0.4123 - val_loss: 0.4222
+Epoch 47/50
+200/200 [==============================] - 0s 125us/step - loss: 0.4022 - val_loss: 0.4129
+Epoch 48/50
+200/200 [==============================] - 0s 140us/step - loss: 0.3927 - val_loss: 0.4042
+Epoch 49/50
+200/200 [==============================] - 0s 140us/step - loss: 0.3839 - val_loss: 0.3959
+Epoch 50/50
+200/200 [==============================] - 0s 140us/step - loss: 0.3756 - val_loss: 0.3882
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/AppData/Roaming/Microsoft/Windows/Network Shortcuts/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/3D Objects")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_200_test_10.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_0_train_200_test_10.png")) 1
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60608 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(200, 784)
+(10, 784)
+Train on 200 samples, validate on 10 samples
+Epoch 1/100
+2018-05-04 23:45:58.896160: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:45:58.902646: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:45:58.909786: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:45:58.920432: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:45:58.930891: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:45:58.939152: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:45:58.951008: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:45:58.958228: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+200/200 [==============================] - 3s 17ms/step - loss: 0.6960 - val_loss: 0.6948
+Epoch 2/100
+200/200 [==============================] - 0s 195us/step - loss: 0.6949 - val_loss: 0.6939
+Epoch 3/100
+200/200 [==============================] - 0s 110us/step - loss: 0.6939 - val_loss: 0.6930
+Epoch 4/100
+200/200 [==============================] - 0s 125us/step - loss: 0.6929 - val_loss: 0.6922
+Epoch 5/100
+200/200 [==============================] - 0s 115us/step - loss: 0.6920 - val_loss: 0.6914
+Epoch 6/100
+200/200 [==============================] - 0s 130us/step - loss: 0.6910 - val_loss: 0.6906
+Epoch 7/100
+200/200 [==============================] - 0s 145us/step - loss: 0.6901 - val_loss: 0.6897
+Epoch 8/100
+200/200 [==============================] - 0s 160us/step - loss: 0.6891 - val_loss: 0.6888
+Epoch 9/100
+200/200 [==============================] - 0s 170us/step - loss: 0.6881 - val_loss: 0.6879
+Epoch 10/100
+200/200 [==============================] - 0s 160us/step - loss: 0.6871 - val_loss: 0.6869
+Epoch 11/100
+200/200 [==============================] - 0s 140us/step - loss: 0.6859 - val_loss: 0.6858
+Epoch 12/100
+200/200 [==============================] - 0s 155us/step - loss: 0.6847 - val_loss: 0.6846
+Epoch 13/100
+200/200 [==============================] - 0s 135us/step - loss: 0.6834 - val_loss: 0.6834
+Epoch 14/100
+200/200 [==============================] - 0s 175us/step - loss: 0.6819 - val_loss: 0.6819
+Epoch 15/100
+200/200 [==============================] - 0s 160us/step - loss: 0.6803 - val_loss: 0.6804
+Epoch 16/100
+200/200 [==============================] - 0s 140us/step - loss: 0.6785 - val_loss: 0.6786
+Epoch 17/100
+200/200 [==============================] - 0s 145us/step - loss: 0.6765 - val_loss: 0.6766
+Epoch 18/100
+200/200 [==============================] - 0s 130us/step - loss: 0.6743 - val_loss: 0.6745
+Epoch 19/100
+200/200 [==============================] - 0s 130us/step - loss: 0.6719 - val_loss: 0.6721
+Epoch 20/100
+200/200 [==============================] - 0s 140us/step - loss: 0.6692 - val_loss: 0.6693
+Epoch 21/100
+200/200 [==============================] - 0s 150us/step - loss: 0.6661 - val_loss: 0.6663
+Epoch 22/100
+200/200 [==============================] - 0s 135us/step - loss: 0.6627 - val_loss: 0.6630
+Epoch 23/100
+200/200 [==============================] - 0s 120us/step - loss: 0.6590 - val_loss: 0.6593
+Epoch 24/100
+200/200 [==============================] - 0s 145us/step - loss: 0.6549 - val_loss: 0.6552
+Epoch 25/100
+200/200 [==============================] - 0s 115us/step - loss: 0.6503 - val_loss: 0.6508
+Epoch 26/100
+200/200 [==============================] - 0s 160us/step - loss: 0.6453 - val_loss: 0.6458
+Epoch 27/100
+200/200 [==============================] - 0s 130us/step - loss: 0.6398 - val_loss: 0.6403
+Epoch 28/100
+200/200 [==============================] - 0s 135us/step - loss: 0.6337 - val_loss: 0.6344
+Epoch 29/100
+200/200 [==============================] - 0s 150us/step - loss: 0.6271 - val_loss: 0.6280
+Epoch 30/100
+200/200 [==============================] - 0s 120us/step - loss: 0.6199 - val_loss: 0.6210
+Epoch 31/100
+200/200 [==============================] - 0s 110us/step - loss: 0.6122 - val_loss: 0.6135
+Epoch 32/100
+200/200 [==============================] - 0s 160us/step - loss: 0.6039 - val_loss: 0.6055
+Epoch 33/100
+200/200 [==============================] - 0s 145us/step - loss: 0.5950 - val_loss: 0.5969
+Epoch 34/100
+200/200 [==============================] - 0s 120us/step - loss: 0.5855 - val_loss: 0.5878
+Epoch 35/100
+200/200 [==============================] - 0s 125us/step - loss: 0.5754 - val_loss: 0.5780
+Epoch 36/100
+200/200 [==============================] - 0s 150us/step - loss: 0.5647 - val_loss: 0.5679
+Epoch 37/100
+200/200 [==============================] - 0s 155us/step - loss: 0.5537 - val_loss: 0.5574
+Epoch 38/100
+200/200 [==============================] - 0s 150us/step - loss: 0.5423 - val_loss: 0.5465
+Epoch 39/100
+200/200 [==============================] - 0s 125us/step - loss: 0.5305 - val_loss: 0.5353
+Epoch 40/100
+200/200 [==============================] - 0s 135us/step - loss: 0.5184 - val_loss: 0.5240
+Epoch 41/100
+200/200 [==============================] - 0s 185us/step - loss: 0.5062 - val_loss: 0.5125
+Epoch 42/100
+200/200 [==============================] - 0s 120us/step - loss: 0.4939 - val_loss: 0.5009
+Epoch 43/100
+200/200 [==============================] - 0s 130us/step - loss: 0.4816 - val_loss: 0.4893
+Epoch 44/100
+200/200 [==============================] - 0s 140us/step - loss: 0.4693 - val_loss: 0.4779
+Epoch 45/100
+200/200 [==============================] - 0s 140us/step - loss: 0.4573 - val_loss: 0.4667
+Epoch 46/100
+200/200 [==============================] - 0s 160us/step - loss: 0.4456 - val_loss: 0.4558
+Epoch 47/100
+200/200 [==============================] - 0s 115us/step - loss: 0.4343 - val_loss: 0.4453
+Epoch 48/100
+200/200 [==============================] - 0s 125us/step - loss: 0.4234 - val_loss: 0.4351
+Epoch 49/100
+200/200 [==============================] - 0s 130us/step - loss: 0.4129 - val_loss: 0.4254
+Epoch 50/100
+200/200 [==============================] - 0s 125us/step - loss: 0.4030 - val_loss: 0.4162
+Epoch 51/100
+200/200 [==============================] - 0s 135us/step - loss: 0.3937 - val_loss: 0.4073
+Epoch 52/100
+200/200 [==============================] - 0s 135us/step - loss: 0.3848 - val_loss: 0.3990
+Epoch 53/100
+200/200 [==============================] - 0s 140us/step - loss: 0.3765 - val_loss: 0.3912
+Epoch 54/100
+200/200 [==============================] - 0s 135us/step - loss: 0.3688 - val_loss: 0.3840
+Epoch 55/100
+200/200 [==============================] - 0s 140us/step - loss: 0.3617 - val_loss: 0.3772
+Epoch 56/100
+200/200 [==============================] - 0s 130us/step - loss: 0.3552 - val_loss: 0.3710
+Epoch 57/100
+200/200 [==============================] - 0s 125us/step - loss: 0.3491 - val_loss: 0.3651
+Epoch 58/100
+200/200 [==============================] - 0s 135us/step - loss: 0.3435 - val_loss: 0.3597
+Epoch 59/100
+200/200 [==============================] - 0s 130us/step - loss: 0.3383 - val_loss: 0.3546
+Epoch 60/100
+200/200 [==============================] - 0s 150us/step - loss: 0.3336 - val_loss: 0.3500
+Epoch 61/100
+200/200 [==============================] - 0s 165us/step - loss: 0.3293 - val_loss: 0.3457
+Epoch 62/100
+200/200 [==============================] - 0s 145us/step - loss: 0.3253 - val_loss: 0.3417
+Epoch 63/100
+200/200 [==============================] - 0s 155us/step - loss: 0.3216 - val_loss: 0.3380
+Epoch 64/100
+200/200 [==============================] - 0s 145us/step - loss: 0.3183 - val_loss: 0.3346
+Epoch 65/100
+200/200 [==============================] - 0s 150us/step - loss: 0.3152 - val_loss: 0.3315
+Epoch 66/100
+200/200 [==============================] - 0s 135us/step - loss: 0.3124 - val_loss: 0.3285
+Epoch 67/100
+200/200 [==============================] - 0s 140us/step - loss: 0.3098 - val_loss: 0.3258
+Epoch 68/100
+200/200 [==============================] - 0s 155us/step - loss: 0.3073 - val_loss: 0.3233
+Epoch 69/100
+200/200 [==============================] - 0s 130us/step - loss: 0.3051 - val_loss: 0.3209
+Epoch 70/100
+200/200 [==============================] - 0s 160us/step - loss: 0.3031 - val_loss: 0.3187
+Epoch 71/100
+200/200 [==============================] - 0s 135us/step - loss: 0.3012 - val_loss: 0.3167
+Epoch 72/100
+200/200 [==============================] - 0s 140us/step - loss: 0.2994 - val_loss: 0.3148
+Epoch 73/100
+200/200 [==============================] - 0s 125us/step - loss: 0.2978 - val_loss: 0.3130
+Epoch 74/100
+200/200 [==============================] - 0s 130us/step - loss: 0.2963 - val_loss: 0.3114
+Epoch 75/100
+200/200 [==============================] - 0s 135us/step - loss: 0.2948 - val_loss: 0.3098
+Epoch 76/100
+200/200 [==============================] - 0s 145us/step - loss: 0.2935 - val_loss: 0.3083
+Epoch 77/100
+200/200 [==============================] - 0s 125us/step - loss: 0.2923 - val_loss: 0.3070
+Epoch 78/100
+200/200 [==============================] - 0s 130us/step - loss: 0.2911 - val_loss: 0.3057
+Epoch 79/100
+200/200 [==============================] - 0s 135us/step - loss: 0.2900 - val_loss: 0.3045
+Epoch 80/100
+200/200 [==============================] - 0s 150us/step - loss: 0.2890 - val_loss: 0.3033
+Epoch 81/100
+200/200 [==============================] - 0s 115us/step - loss: 0.2881 - val_loss: 0.3022
+Epoch 82/100
+200/200 [==============================] - 0s 125us/step - loss: 0.2872 - val_loss: 0.3012
+Epoch 83/100
+200/200 [==============================] - 0s 150us/step - loss: 0.2863 - val_loss: 0.3002
+Epoch 84/100
+200/200 [==============================] - 0s 115us/step - loss: 0.2855 - val_loss: 0.2993
+Epoch 85/100
+200/200 [==============================] - 0s 115us/step - loss: 0.2847 - val_loss: 0.2984
+Epoch 86/100
+200/200 [==============================] - 0s 140us/step - loss: 0.2840 - val_loss: 0.2976
+Epoch 87/100
+200/200 [==============================] - 0s 125us/step - loss: 0.2833 - val_loss: 0.2968
+Epoch 88/100
+200/200 [==============================] - 0s 155us/step - loss: 0.2827 - val_loss: 0.2961
+Epoch 89/100
+200/200 [==============================] - 0s 140us/step - loss: 0.2821 - val_loss: 0.2953
+Epoch 90/100
+200/200 [==============================] - 0s 160us/step - loss: 0.2815 - val_loss: 0.2947
+Epoch 91/100
+200/200 [==============================] - 0s 135us/step - loss: 0.2809 - val_loss: 0.2940
+Epoch 92/100
+200/200 [==============================] - 0s 145us/step - loss: 0.2804 - val_loss: 0.2934
+Epoch 93/100
+200/200 [==============================] - 0s 140us/step - loss: 0.2799 - val_loss: 0.2928
+Epoch 94/100
+200/200 [==============================] - 0s 155us/step - loss: 0.2794 - val_loss: 0.2922
+Epoch 95/100
+200/200 [==============================] - 0s 140us/step - loss: 0.2789 - val_loss: 0.2916
+Epoch 96/100
+200/200 [==============================] - 0s 170us/step - loss: 0.2785 - val_loss: 0.2911
+Epoch 97/100
+200/200 [==============================] - 0s 120us/step - loss: 0.2780 - val_loss: 0.2906
+Epoch 98/100
+200/200 [==============================] - 0s 135us/step - loss: 0.2776 - val_loss: 0.2901
+Epoch 99/100
+200/200 [==============================] - 0s 140us/step - loss: 0.2772 - val_loss: 0.2897
+Epoch 100/100
+200/200 [==============================] - 0s 130us/step - loss: 0.2768 - val_loss: 0.2892
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_200_test_10.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_100_train_200_test_10.png")) 1
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60617 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(2000, 784)
+(100, 784)
+Train on 2000 samples, validate on 100 samples
+Epoch 1/10
+2018-05-04 23:47:13.022261: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:47:13.028232: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:47:13.036379: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:47:13.042927: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:47:13.050454: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:47:13.060234: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:47:13.068659: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:47:13.076833: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2000/2000 [==============================] - 3s 1ms/step - loss: 0.6916 - val_loss: 0.6877
+Epoch 2/10
+2000/2000 [==============================] - 0s 92us/step - loss: 0.6831 - val_loss: 0.6765
+Epoch 3/10
+2000/2000 [==============================] - 0s 97us/step - loss: 0.6656 - val_loss: 0.6510
+Epoch 4/10
+2000/2000 [==============================] - 0s 98us/step - loss: 0.6264 - val_loss: 0.5975
+Epoch 5/10
+2000/2000 [==============================] - 0s 87us/step - loss: 0.5545 - val_loss: 0.5132
+Epoch 6/10
+2000/2000 [==============================] - 0s 101us/step - loss: 0.4617 - val_loss: 0.4257
+Epoch 7/10
+2000/2000 [==============================] - 0s 90us/step - loss: 0.3833 - val_loss: 0.3641
+Epoch 8/10
+2000/2000 [==============================] - 0s 90us/step - loss: 0.3365 - val_loss: 0.3304
+Epoch 9/10
+2000/2000 [==============================] - 0s 96us/step - loss: 0.3126 - val_loss: 0.3123
+Epoch 10/10
+2000/2000 [==============================] - 0s 98us/step - loss: 0.2999 - val_loss: 0.3019
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_200_test_10.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_2000_test_10.png")) 1
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60630 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(2000, 784)
+(100, 784)
+Train on 2000 samples, validate on 100 samples
+Epoch 1/50
+2018-05-04 23:48:23.076681: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:48:23.083292: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:48:23.088554: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:48:23.095169: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:48:23.101358: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:48:23.107952: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:48:23.116722: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:48:23.124323: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2000/2000 [==============================] - 3s 2ms/step - loss: 0.6921 - val_loss: 0.6890
+Epoch 2/50
+2000/2000 [==============================] - 0s 95us/step - loss: 0.6854 - val_loss: 0.6807
+Epoch 3/50
+2000/2000 [==============================] - 0s 99us/step - loss: 0.6724 - val_loss: 0.6619
+Epoch 4/50
+2000/2000 [==============================] - 0s 96us/step - loss: 0.6423 - val_loss: 0.6193
+Epoch 5/50
+2000/2000 [==============================] - 0s 99us/step - loss: 0.5812 - val_loss: 0.5432
+Epoch 6/50
+2000/2000 [==============================] - 0s 102us/step - loss: 0.4906 - val_loss: 0.4511
+Epoch 7/50
+2000/2000 [==============================] - 0s 98us/step - loss: 0.4035 - val_loss: 0.3799
+Epoch 8/50
+2000/2000 [==============================] - 0s 86us/step - loss: 0.3471 - val_loss: 0.3387
+Epoch 9/50
+2000/2000 [==============================] - 0s 102us/step - loss: 0.3176 - val_loss: 0.3170
+Epoch 10/50
+2000/2000 [==============================] - 0s 95us/step - loss: 0.3024 - val_loss: 0.3045
+Epoch 11/50
+2000/2000 [==============================] - 0s 92us/step - loss: 0.2937 - val_loss: 0.2970
+Epoch 12/50
+2000/2000 [==============================] - 0s 89us/step - loss: 0.2883 - val_loss: 0.2918
+Epoch 13/50
+2000/2000 [==============================] - 0s 99us/step - loss: 0.2846 - val_loss: 0.2882
+Epoch 14/50
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2819 - val_loss: 0.2854
+Epoch 15/50
+2000/2000 [==============================] - 0s 102us/step - loss: 0.2798 - val_loss: 0.2833
+Epoch 16/50
+2000/2000 [==============================] - 0s 80us/step - loss: 0.2782 - val_loss: 0.2816
+Epoch 17/50
+2000/2000 [==============================] - 0s 92us/step - loss: 0.2769 - val_loss: 0.2801
+Epoch 18/50
+2000/2000 [==============================] - 0s 104us/step - loss: 0.2758 - val_loss: 0.2789
+Epoch 19/50
+2000/2000 [==============================] - 0s 85us/step - loss: 0.2748 - val_loss: 0.2777
+Epoch 20/50
+2000/2000 [==============================] - 0s 95us/step - loss: 0.2739 - val_loss: 0.2766
+Epoch 21/50
+2000/2000 [==============================] - 0s 93us/step - loss: 0.2732 - val_loss: 0.2758
+Epoch 22/50
+2000/2000 [==============================] - 0s 94us/step - loss: 0.2725 - val_loss: 0.2751
+Epoch 23/50
+2000/2000 [==============================] - 0s 87us/step - loss: 0.2718 - val_loss: 0.2743
+Epoch 24/50
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2712 - val_loss: 0.2737
+Epoch 25/50
+2000/2000 [==============================] - 0s 97us/step - loss: 0.2706 - val_loss: 0.2732
+Epoch 26/50
+2000/2000 [==============================] - 0s 89us/step - loss: 0.2701 - val_loss: 0.2724
+Epoch 27/50
+2000/2000 [==============================] - 0s 90us/step - loss: 0.2695 - val_loss: 0.2718
+Epoch 28/50
+2000/2000 [==============================] - 0s 89us/step - loss: 0.2690 - val_loss: 0.2712
+Epoch 29/50
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2685 - val_loss: 0.2709
+Epoch 30/50
+2000/2000 [==============================] - 0s 92us/step - loss: 0.2680 - val_loss: 0.2704
+Epoch 31/50
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2675 - val_loss: 0.2698
+Epoch 32/50
+2000/2000 [==============================] - 0s 80us/step - loss: 0.2670 - val_loss: 0.2695
+Epoch 33/50
+2000/2000 [==============================] - 0s 101us/step - loss: 0.2665 - val_loss: 0.2691
+Epoch 34/50
+2000/2000 [==============================] - 0s 81us/step - loss: 0.2660 - val_loss: 0.2684
+Epoch 35/50
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2655 - val_loss: 0.2679
+Epoch 36/50
+2000/2000 [==============================] - 0s 89us/step - loss: 0.2650 - val_loss: 0.2673
+Epoch 37/50
+2000/2000 [==============================] - 0s 85us/step - loss: 0.2645 - val_loss: 0.2670
+Epoch 38/50
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2639 - val_loss: 0.2665
+Epoch 39/50
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2634 - val_loss: 0.2662
+Epoch 40/50
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2628 - val_loss: 0.2656
+Epoch 41/50
+2000/2000 [==============================] - 0s 85us/step - loss: 0.2622 - val_loss: 0.2648
+Epoch 42/50
+2000/2000 [==============================] - 0s 74us/step - loss: 0.2616 - val_loss: 0.2644
+Epoch 43/50
+2000/2000 [==============================] - 0s 86us/step - loss: 0.2611 - val_loss: 0.2640
+Epoch 44/50
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2605 - val_loss: 0.2631
+Epoch 45/50
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2598 - val_loss: 0.2627
+Epoch 46/50
+2000/2000 [==============================] - 0s 90us/step - loss: 0.2592 - val_loss: 0.2621
+Epoch 47/50
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2585 - val_loss: 0.2615
+Epoch 48/50
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2578 - val_loss: 0.2606
+Epoch 49/50
+2000/2000 [==============================] - 0s 82us/step - loss: 0.2571 - val_loss: 0.2602
+Epoch 50/50
+2000/2000 [==============================] - 0s 93us/step - loss: 0.2564 - val_loss: 0.2598
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_2000_test_100.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_0_train_2000_test_100.png")) 1
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60638 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(2000, 784)
+(100, 784)
+Train on 2000 samples, validate on 100 samples
+Epoch 1/100
+2018-05-04 23:50:05.991010: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:50:05.997271: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:50:06.002804: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:50:06.010003: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:50:06.016751: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:50:06.023552: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:50:06.036643: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:50:06.045427: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2000/2000 [==============================] - 3s 2ms/step - loss: 0.6920 - val_loss: 0.6876
+Epoch 2/100
+2000/2000 [==============================] - 0s 94us/step - loss: 0.6825 - val_loss: 0.6757
+Epoch 3/100
+2000/2000 [==============================] - 0s 96us/step - loss: 0.6634 - val_loss: 0.6479
+Epoch 4/100
+2000/2000 [==============================] - 0s 102us/step - loss: 0.6202 - val_loss: 0.5893
+Epoch 5/100
+2000/2000 [==============================] - 0s 104us/step - loss: 0.5417 - val_loss: 0.4991
+Epoch 6/100
+2000/2000 [==============================] - 0s 86us/step - loss: 0.4459 - val_loss: 0.4119
+Epoch 7/100
+2000/2000 [==============================] - 0s 100us/step - loss: 0.3713 - val_loss: 0.3555
+Epoch 8/100
+2000/2000 [==============================] - 0s 93us/step - loss: 0.3297 - val_loss: 0.3255
+Epoch 9/100
+2000/2000 [==============================] - 0s 95us/step - loss: 0.3087 - val_loss: 0.3094
+Epoch 10/100
+2000/2000 [==============================] - 0s 91us/step - loss: 0.2975 - val_loss: 0.2999
+Epoch 11/100
+2000/2000 [==============================] - 0s 90us/step - loss: 0.2908 - val_loss: 0.2940
+Epoch 12/100
+2000/2000 [==============================] - 0s 89us/step - loss: 0.2865 - val_loss: 0.2898
+Epoch 13/100
+2000/2000 [==============================] - 0s 92us/step - loss: 0.2834 - val_loss: 0.2866
+Epoch 14/100
+2000/2000 [==============================] - 0s 95us/step - loss: 0.2811 - val_loss: 0.2843
+Epoch 15/100
+2000/2000 [==============================] - 0s 95us/step - loss: 0.2793 - val_loss: 0.2824
+Epoch 16/100
+2000/2000 [==============================] - 0s 91us/step - loss: 0.2779 - val_loss: 0.2807
+Epoch 17/100
+2000/2000 [==============================] - 0s 91us/step - loss: 0.2767 - val_loss: 0.2793
+Epoch 18/100
+2000/2000 [==============================] - 0s 95us/step - loss: 0.2757 - val_loss: 0.2782
+Epoch 19/100
+2000/2000 [==============================] - 0s 91us/step - loss: 0.2748 - val_loss: 0.2772
+Epoch 20/100
+2000/2000 [==============================] - 0s 93us/step - loss: 0.2740 - val_loss: 0.2764
+Epoch 21/100
+2000/2000 [==============================] - 0s 90us/step - loss: 0.2733 - val_loss: 0.2756
+Epoch 22/100
+2000/2000 [==============================] - 0s 91us/step - loss: 0.2726 - val_loss: 0.2749
+Epoch 23/100
+2000/2000 [==============================] - 0s 93us/step - loss: 0.2720 - val_loss: 0.2744
+Epoch 24/100
+2000/2000 [==============================] - 0s 89us/step - loss: 0.2714 - val_loss: 0.2735
+Epoch 25/100
+2000/2000 [==============================] - 0s 92us/step - loss: 0.2709 - val_loss: 0.2730
+Epoch 26/100
+2000/2000 [==============================] - 0s 94us/step - loss: 0.2703 - val_loss: 0.2723
+Epoch 27/100
+2000/2000 [==============================] - 0s 85us/step - loss: 0.2698 - val_loss: 0.2717
+Epoch 28/100
+2000/2000 [==============================] - 0s 93us/step - loss: 0.2693 - val_loss: 0.2715
+Epoch 29/100
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2688 - val_loss: 0.2707
+Epoch 30/100
+2000/2000 [==============================] - 0s 89us/step - loss: 0.2683 - val_loss: 0.2702
+Epoch 31/100
+2000/2000 [==============================] - 0s 94us/step - loss: 0.2678 - val_loss: 0.2698
+Epoch 32/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2673 - val_loss: 0.2691
+Epoch 33/100
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2668 - val_loss: 0.2685
+Epoch 34/100
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2662 - val_loss: 0.2681
+Epoch 35/100
+2000/2000 [==============================] - 0s 82us/step - loss: 0.2657 - val_loss: 0.2674
+Epoch 36/100
+2000/2000 [==============================] - 0s 86us/step - loss: 0.2652 - val_loss: 0.2669
+Epoch 37/100
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2646 - val_loss: 0.2666
+Epoch 38/100
+2000/2000 [==============================] - 0s 81us/step - loss: 0.2641 - val_loss: 0.2661
+Epoch 39/100
+2000/2000 [==============================] - 0s 89us/step - loss: 0.2635 - val_loss: 0.2655
+Epoch 40/100
+2000/2000 [==============================] - 0s 85us/step - loss: 0.2629 - val_loss: 0.2649
+Epoch 41/100
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2623 - val_loss: 0.2642
+Epoch 42/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2617 - val_loss: 0.2637
+Epoch 43/100
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2610 - val_loss: 0.2632
+Epoch 44/100
+2000/2000 [==============================] - 0s 77us/step - loss: 0.2604 - val_loss: 0.2626
+Epoch 45/100
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2597 - val_loss: 0.2621
+Epoch 46/100
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2590 - val_loss: 0.2614
+Epoch 47/100
+2000/2000 [==============================] - 0s 82us/step - loss: 0.2583 - val_loss: 0.2605
+Epoch 48/100
+2000/2000 [==============================] - 0s 87us/step - loss: 0.2576 - val_loss: 0.2604
+Epoch 49/100
+2000/2000 [==============================] - 0s 82us/step - loss: 0.2569 - val_loss: 0.2593
+Epoch 50/100
+2000/2000 [==============================] - 0s 87us/step - loss: 0.2561 - val_loss: 0.2587
+Epoch 51/100
+2000/2000 [==============================] - 0s 87us/step - loss: 0.2554 - val_loss: 0.2578
+Epoch 52/100
+2000/2000 [==============================] - 0s 85us/step - loss: 0.2546 - val_loss: 0.2572
+Epoch 53/100
+2000/2000 [==============================] - 0s 80us/step - loss: 0.2538 - val_loss: 0.2565
+Epoch 54/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2530 - val_loss: 0.2556
+Epoch 55/100
+2000/2000 [==============================] - 0s 90us/step - loss: 0.2522 - val_loss: 0.2551
+Epoch 56/100
+2000/2000 [==============================] - 0s 74us/step - loss: 0.2513 - val_loss: 0.2543
+Epoch 57/100
+2000/2000 [==============================] - 0s 85us/step - loss: 0.2505 - val_loss: 0.2536
+Epoch 58/100
+2000/2000 [==============================] - 0s 87us/step - loss: 0.2497 - val_loss: 0.2529
+Epoch 59/100
+2000/2000 [==============================] - 0s 76us/step - loss: 0.2488 - val_loss: 0.2520
+Epoch 60/100
+2000/2000 [==============================] - 0s 93us/step - loss: 0.2480 - val_loss: 0.2514
+Epoch 61/100
+2000/2000 [==============================] - 0s 86us/step - loss: 0.2471 - val_loss: 0.2506
+Epoch 62/100
+2000/2000 [==============================] - 0s 78us/step - loss: 0.2463 - val_loss: 0.2498
+Epoch 63/100
+2000/2000 [==============================] - 0s 92us/step - loss: 0.2454 - val_loss: 0.2489
+Epoch 64/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2446 - val_loss: 0.2483
+Epoch 65/100
+2000/2000 [==============================] - 0s 80us/step - loss: 0.2437 - val_loss: 0.2473
+Epoch 66/100
+2000/2000 [==============================] - 0s 76us/step - loss: 0.2428 - val_loss: 0.2466
+Epoch 67/100
+2000/2000 [==============================] - 0s 89us/step - loss: 0.2420 - val_loss: 0.2461
+Epoch 68/100
+2000/2000 [==============================] - 0s 75us/step - loss: 0.2411 - val_loss: 0.2452
+Epoch 69/100
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2403 - val_loss: 0.2443
+Epoch 70/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2394 - val_loss: 0.2434
+Epoch 71/100
+2000/2000 [==============================] - 0s 78us/step - loss: 0.2386 - val_loss: 0.2426
+Epoch 72/100
+2000/2000 [==============================] - 0s 87us/step - loss: 0.2378 - val_loss: 0.2418
+Epoch 73/100
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2369 - val_loss: 0.2414
+Epoch 74/100
+2000/2000 [==============================] - 0s 82us/step - loss: 0.2361 - val_loss: 0.2406
+Epoch 75/100
+2000/2000 [==============================] - 0s 78us/step - loss: 0.2353 - val_loss: 0.2399
+Epoch 76/100
+2000/2000 [==============================] - 0s 91us/step - loss: 0.2345 - val_loss: 0.2390
+Epoch 77/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2336 - val_loss: 0.2384
+Epoch 78/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2329 - val_loss: 0.2376
+Epoch 79/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2321 - val_loss: 0.2369
+Epoch 80/100
+2000/2000 [==============================] - 0s 82us/step - loss: 0.2313 - val_loss: 0.2363
+Epoch 81/100
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2305 - val_loss: 0.2353
+Epoch 82/100
+2000/2000 [==============================] - 0s 77us/step - loss: 0.2297 - val_loss: 0.2346
+Epoch 83/100
+2000/2000 [==============================] - 0s 86us/step - loss: 0.2290 - val_loss: 0.2343
+Epoch 84/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2282 - val_loss: 0.2335
+Epoch 85/100
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2275 - val_loss: 0.2328
+Epoch 86/100
+2000/2000 [==============================] - 0s 85us/step - loss: 0.2267 - val_loss: 0.2322
+Epoch 87/100
+2000/2000 [==============================] - 0s 81us/step - loss: 0.2260 - val_loss: 0.2314
+Epoch 88/100
+2000/2000 [==============================] - 0s 77us/step - loss: 0.2253 - val_loss: 0.2308
+Epoch 89/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2246 - val_loss: 0.2303
+Epoch 90/100
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2239 - val_loss: 0.2295
+Epoch 91/100
+2000/2000 [==============================] - 0s 82us/step - loss: 0.2232 - val_loss: 0.2288
+Epoch 92/100
+2000/2000 [==============================] - 0s 70us/step - loss: 0.2225 - val_loss: 0.2283
+Epoch 93/100
+2000/2000 [==============================] - 0s 84us/step - loss: 0.2218 - val_loss: 0.2276
+Epoch 94/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2211 - val_loss: 0.2269
+Epoch 95/100
+2000/2000 [==============================] - 0s 73us/step - loss: 0.2205 - val_loss: 0.2262
+Epoch 96/100
+2000/2000 [==============================] - 0s 75us/step - loss: 0.2198 - val_loss: 0.2258
+Epoch 97/100
+2000/2000 [==============================] - 0s 88us/step - loss: 0.2192 - val_loss: 0.2252
+Epoch 98/100
+2000/2000 [==============================] - 0s 79us/step - loss: 0.2185 - val_loss: 0.2246
+Epoch 99/100
+2000/2000 [==============================] - 0s 90us/step - loss: 0.2179 - val_loss: 0.2239
+Epoch 100/100
+2000/2000 [==============================] - 0s 83us/step - loss: 0.2173 - val_loss: 0.2233
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/not_mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_50_train_2000_test_100.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_0_train_2000_test_100.png")) 1
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60651 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(20000, 784)
+(1000, 784)
+Train on 20000 samples, validate on 1000 samples
+Epoch 1/10
+2018-05-04 23:51:38.680640: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:51:38.688471: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:51:38.695457: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:51:38.708407: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:51:38.717830: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:51:38.724563: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:51:38.731131: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:51:38.744389: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+20000/20000 [==============================] - 5s 235us/step - loss: 0.5408 - val_loss: 0.3074
+Epoch 2/10
+20000/20000 [==============================] - 2s 92us/step - loss: 0.2867 - val_loss: 0.2741
+Epoch 3/10
+20000/20000 [==============================] - 2s 86us/step - loss: 0.2743 - val_loss: 0.2664
+Epoch 4/10
+20000/20000 [==============================] - 2s 86us/step - loss: 0.2681 - val_loss: 0.2602
+Epoch 5/10
+20000/20000 [==============================] - 2s 83us/step - loss: 0.2612 - val_loss: 0.2529
+Epoch 6/10
+20000/20000 [==============================] - 2s 83us/step - loss: 0.2530 - val_loss: 0.2461
+Epoch 7/10
+20000/20000 [==============================] - 2s 82us/step - loss: 0.2447 - val_loss: 0.2384
+Epoch 8/10
+20000/20000 [==============================] - 2s 84us/step - loss: 0.2371 - val_loss: 0.2321
+Epoch 9/10
+20000/20000 [==============================] - 2s 80us/step - loss: 0.2301 - val_loss: 0.2254
+Epoch 10/10
+20000/20000 [==============================] - 2s 79us/step - loss: 0.2238 - val_loss: 0.2197
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_2000_test_100.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_20000_test_100.png")) 1
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60664 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(20000, 784)
+(1000, 784)
+Train on 20000 samples, validate on 1000 samples
+Epoch 1/50
+2018-05-04 23:53:35.956147: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:53:35.963622: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:53:35.969871: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:53:35.977500: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:53:35.984402: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:53:35.992405: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:53:36.005316: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-04 23:53:36.012970: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+20000/20000 [==============================] - 7s 329us/step - loss: 0.5233 - val_loss: 0.3024
+Epoch 2/50
+20000/20000 [==============================] - 3s 139us/step - loss: 0.2858 - val_loss: 0.2739
+Epoch 3/50
+20000/20000 [==============================] - 2s 105us/step - loss: 0.2752 - val_loss: 0.2681
+Epoch 4/50
+20000/20000 [==============================] - 2s 84us/step - loss: 0.2704 - val_loss: 0.2637
+Epoch 5/50
+20000/20000 [==============================] - 2s 95us/step - loss: 0.2653 - val_loss: 0.2576
+Epoch 6/50
+20000/20000 [==============================] - 2s 111us/step - loss: 0.2587 - val_loss: 0.2509
+Epoch 7/50
+20000/20000 [==============================] - 2s 124us/step - loss: 0.2508 - val_loss: 0.2433
+Epoch 8/50
+20000/20000 [==============================] - 2s 119us/step - loss: 0.2424 - val_loss: 0.2354
+Epoch 9/50
+20000/20000 [==============================] - 2s 123us/step - loss: 0.2343 - val_loss: 0.2283
+Epoch 10/50
+20000/20000 [==============================] - 2s 91us/step - loss: 0.2271 - val_loss: 0.2220
+Epoch 11/50
+20000/20000 [==============================] - 2s 79us/step - loss: 0.2206 - val_loss: 0.2166
+Epoch 12/50
+20000/20000 [==============================] - 2s 82us/step - loss: 0.2149 - val_loss: 0.2112
+Epoch 13/50
+20000/20000 [==============================] - 2s 79us/step - loss: 0.2097 - val_loss: 0.2068
+Epoch 14/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.2050 - val_loss: 0.2029
+Epoch 15/50
+20000/20000 [==============================] - 2s 85us/step - loss: 0.2009 - val_loss: 0.1992
+Epoch 16/50
+20000/20000 [==============================] - 2s 80us/step - loss: 0.1973 - val_loss: 0.1961
+Epoch 17/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1940 - val_loss: 0.1929
+Epoch 18/50
+20000/20000 [==============================] - 2s 83us/step - loss: 0.1911 - val_loss: 0.1910
+Epoch 19/50
+20000/20000 [==============================] - 2s 79us/step - loss: 0.1885 - val_loss: 0.1879
+Epoch 20/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1860 - val_loss: 0.1861
+Epoch 21/50
+20000/20000 [==============================] - 2s 112us/step - loss: 0.1837 - val_loss: 0.1834
+Epoch 22/50
+20000/20000 [==============================] - 2s 92us/step - loss: 0.1815 - val_loss: 0.1816
+Epoch 23/50
+20000/20000 [==============================] - 2s 91us/step - loss: 0.1794 - val_loss: 0.1796
+Epoch 24/50
+20000/20000 [==============================] - 2s 92us/step - loss: 0.1775 - val_loss: 0.1780
+Epoch 25/50
+20000/20000 [==============================] - 2s 97us/step - loss: 0.1756 - val_loss: 0.1761
+Epoch 26/50
+20000/20000 [==============================] - 2s 94us/step - loss: 0.1738 - val_loss: 0.1743
+Epoch 27/50
+20000/20000 [==============================] - 2s 104us/step - loss: 0.1721 - val_loss: 0.1726
+Epoch 28/50
+20000/20000 [==============================] - 2s 97us/step - loss: 0.1705 - val_loss: 0.1708
+Epoch 29/50
+20000/20000 [==============================] - 2s 87us/step - loss: 0.1689 - val_loss: 0.1695
+Epoch 30/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1673 - val_loss: 0.1680
+Epoch 31/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1658 - val_loss: 0.1665
+Epoch 32/50
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1644 - val_loss: 0.1651
+Epoch 33/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1630 - val_loss: 0.1637
+Epoch 34/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1616 - val_loss: 0.1625
+Epoch 35/50
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1603 - val_loss: 0.1611
+Epoch 36/50
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1590 - val_loss: 0.1597
+Epoch 37/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1578 - val_loss: 0.1588
+Epoch 38/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1566 - val_loss: 0.1575
+Epoch 39/50
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1554 - val_loss: 0.1561
+Epoch 40/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1542 - val_loss: 0.1549
+Epoch 41/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1531 - val_loss: 0.1541
+Epoch 42/50
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1520 - val_loss: 0.1528
+Epoch 43/50
+20000/20000 [==============================] - 2s 79us/step - loss: 0.1509 - val_loss: 0.1517
+Epoch 44/50
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1499 - val_loss: 0.1507
+Epoch 45/50
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1488 - val_loss: 0.1496
+Epoch 46/50
+20000/20000 [==============================] - 2s 79us/step - loss: 0.1478 - val_loss: 0.1486
+Epoch 47/50
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1468 - val_loss: 0.1483
+Epoch 48/50
+20000/20000 [==============================] - 2s 88us/step - loss: 0.1459 - val_loss: 0.1466
+Epoch 49/50
+20000/20000 [==============================] - 2s 81us/step - loss: 0.1449 - val_loss: 0.1454
+Epoch 50/50
+20000/20000 [==============================] - 2s 109us/step - loss: 0.1440 - val_loss: 0.1446
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/google-drive/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_50_train_2000_test_100.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_50_train_20000_test_100.png")) 1
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60274 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60762 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+Traceback (most recent call last):
+  File "C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py", line 91, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, currentPid, run_as)
+  File "C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_debugger.py", line 2607, in debug
+    attach_process(port_num, debug_id, debug_options, currentPid, report = True)
+  File "C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_debugger.py", line 2321, in attach_process
+    raise Exception('failed to attach')
+Exception: failed to attach
+Microsoft Windows [Version 10.0.17134.1]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60850 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(20000, 784)
+(1000, 784)
+Train on 20000 samples, validate on 1000 samples
+Epoch 1/100
+2018-05-05 00:01:07.907271: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:01:07.913184: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:01:07.919045: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:01:07.925505: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:01:07.933755: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:01:07.944169: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:01:07.951158: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:01:07.958128: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+20000/20000 [==============================] - 5s 245us/step - loss: 0.5337 - val_loss: 0.3048
+Epoch 2/100
+20000/20000 [==============================] - 2s 105us/step - loss: 0.2862 - val_loss: 0.2738
+Epoch 3/100
+20000/20000 [==============================] - 2s 95us/step - loss: 0.2749 - val_loss: 0.2676
+Epoch 4/100
+20000/20000 [==============================] - 2s 90us/step - loss: 0.2697 - val_loss: 0.2618
+Epoch 5/100
+20000/20000 [==============================] - 2s 91us/step - loss: 0.2640 - val_loss: 0.2559
+Epoch 6/100
+20000/20000 [==============================] - 2s 90us/step - loss: 0.2569 - val_loss: 0.2496
+Epoch 7/100
+20000/20000 [==============================] - 2s 100us/step - loss: 0.2488 - val_loss: 0.2413
+Epoch 8/100
+20000/20000 [==============================] - 2s 97us/step - loss: 0.2408 - val_loss: 0.2346
+Epoch 9/100
+20000/20000 [==============================] - 2s 87us/step - loss: 0.2332 - val_loss: 0.2275
+Epoch 10/100
+20000/20000 [==============================] - 2s 88us/step - loss: 0.2263 - val_loss: 0.2221
+Epoch 11/100
+20000/20000 [==============================] - 2s 85us/step - loss: 0.2201 - val_loss: 0.2162
+Epoch 12/100
+20000/20000 [==============================] - 2s 100us/step - loss: 0.2145 - val_loss: 0.2116
+Epoch 13/100
+20000/20000 [==============================] - 2s 93us/step - loss: 0.2097 - val_loss: 0.2073
+Epoch 14/100
+20000/20000 [==============================] - 2s 76us/step - loss: 0.2053 - val_loss: 0.2031
+Epoch 15/100
+20000/20000 [==============================] - 2s 91us/step - loss: 0.2014 - val_loss: 0.1997
+Epoch 16/100
+20000/20000 [==============================] - 2s 86us/step - loss: 0.1979 - val_loss: 0.1964
+Epoch 17/100
+20000/20000 [==============================] - 2s 107us/step - loss: 0.1946 - val_loss: 0.1933
+Epoch 18/100
+20000/20000 [==============================] - 2s 100us/step - loss: 0.1916 - val_loss: 0.1906
+Epoch 19/100
+20000/20000 [==============================] - 2s 102us/step - loss: 0.1889 - val_loss: 0.1882
+Epoch 20/100
+20000/20000 [==============================] - 2s 92us/step - loss: 0.1863 - val_loss: 0.1856
+Epoch 21/100
+20000/20000 [==============================] - 2s 90us/step - loss: 0.1838 - val_loss: 0.1832
+Epoch 22/100
+20000/20000 [==============================] - 2s 98us/step - loss: 0.1815 - val_loss: 0.1814
+Epoch 23/100
+20000/20000 [==============================] - 2s 111us/step - loss: 0.1793 - val_loss: 0.1789
+Epoch 24/100
+20000/20000 [==============================] - 2s 124us/step - loss: 0.1772 - val_loss: 0.1772
+Epoch 25/100
+20000/20000 [==============================] - 2s 116us/step - loss: 0.1752 - val_loss: 0.1753
+Epoch 26/100
+20000/20000 [==============================] - 2s 79us/step - loss: 0.1733 - val_loss: 0.1733
+Epoch 27/100
+20000/20000 [==============================] - 2s 76us/step - loss: 0.1715 - val_loss: 0.1716
+Epoch 28/100
+20000/20000 [==============================] - 2s 76us/step - loss: 0.1698 - val_loss: 0.1699
+Epoch 29/100
+20000/20000 [==============================] - 2s 87us/step - loss: 0.1682 - val_loss: 0.1683
+Epoch 30/100
+20000/20000 [==============================] - 2s 87us/step - loss: 0.1666 - val_loss: 0.1670
+Epoch 31/100
+20000/20000 [==============================] - 2s 86us/step - loss: 0.1651 - val_loss: 0.1655
+Epoch 32/100
+20000/20000 [==============================] - 2s 80us/step - loss: 0.1637 - val_loss: 0.1641
+Epoch 33/100
+20000/20000 [==============================] - 2s 99us/step - loss: 0.1623 - val_loss: 0.1628
+Epoch 34/100
+20000/20000 [==============================] - 2s 107us/step - loss: 0.1610 - val_loss: 0.1616
+Epoch 35/100
+20000/20000 [==============================] - 2s 117us/step - loss: 0.1598 - val_loss: 0.1601
+Epoch 36/100
+20000/20000 [==============================] - 2s 123us/step - loss: 0.1585 - val_loss: 0.1589
+Epoch 37/100
+20000/20000 [==============================] - 2s 103us/step - loss: 0.1573 - val_loss: 0.1577
+Epoch 38/100
+20000/20000 [==============================] - 2s 86us/step - loss: 0.1561 - val_loss: 0.1565
+Epoch 39/100
+20000/20000 [==============================] - 2s 84us/step - loss: 0.1550 - val_loss: 0.1557
+Epoch 40/100
+20000/20000 [==============================] - 2s 87us/step - loss: 0.1539 - val_loss: 0.1544
+Epoch 41/100
+20000/20000 [==============================] - 2s 83us/step - loss: 0.1528 - val_loss: 0.1533
+Epoch 42/100
+20000/20000 [==============================] - 2s 80us/step - loss: 0.1517 - val_loss: 0.1519
+Epoch 43/100
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1506 - val_loss: 0.1512
+Epoch 44/100
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1496 - val_loss: 0.1503
+Epoch 45/100
+20000/20000 [==============================] - 2s 80us/step - loss: 0.1486 - val_loss: 0.1491
+Epoch 46/100
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1476 - val_loss: 0.1482
+Epoch 47/100
+20000/20000 [==============================] - 2s 95us/step - loss: 0.1466 - val_loss: 0.1472
+Epoch 48/100
+20000/20000 [==============================] - 2s 95us/step - loss: 0.1456 - val_loss: 0.1461
+Epoch 49/100
+20000/20000 [==============================] - 2s 87us/step - loss: 0.1447 - val_loss: 0.1455
+Epoch 50/100
+20000/20000 [==============================] - 2s 87us/step - loss: 0.1438 - val_loss: 0.1443
+Epoch 51/100
+20000/20000 [==============================] - 2s 97us/step - loss: 0.1429 - val_loss: 0.1435
+Epoch 52/100
+20000/20000 [==============================] - 2s 102us/step - loss: 0.1420 - val_loss: 0.1427
+Epoch 53/100
+20000/20000 [==============================] - 2s 93us/step - loss: 0.1411 - val_loss: 0.1420
+Epoch 54/100
+20000/20000 [==============================] - 2s 89us/step - loss: 0.1403 - val_loss: 0.1407
+Epoch 55/100
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1394 - val_loss: 0.1398
+Epoch 56/100
+20000/20000 [==============================] - 2s 98us/step - loss: 0.1386 - val_loss: 0.1391
+Epoch 57/100
+20000/20000 [==============================] - 2s 81us/step - loss: 0.1378 - val_loss: 0.1386
+Epoch 58/100
+20000/20000 [==============================] - 2s 90us/step - loss: 0.1370 - val_loss: 0.1375
+Epoch 59/100
+20000/20000 [==============================] - 2s 87us/step - loss: 0.1362 - val_loss: 0.1367
+Epoch 60/100
+20000/20000 [==============================] - 2s 88us/step - loss: 0.1355 - val_loss: 0.1361
+Epoch 61/100
+20000/20000 [==============================] - 2s 113us/step - loss: 0.1347 - val_loss: 0.1354
+Epoch 62/100
+20000/20000 [==============================] - 2s 94us/step - loss: 0.1340 - val_loss: 0.1347
+Epoch 63/100
+20000/20000 [==============================] - 2s 91us/step - loss: 0.1332 - val_loss: 0.1337
+Epoch 64/100
+20000/20000 [==============================] - 2s 91us/step - loss: 0.1325 - val_loss: 0.1330
+Epoch 65/100
+20000/20000 [==============================] - 2s 79us/step - loss: 0.1318 - val_loss: 0.1323
+Epoch 66/100
+20000/20000 [==============================] - 2s 81us/step - loss: 0.1311 - val_loss: 0.1317
+Epoch 67/100
+20000/20000 [==============================] - 2s 86us/step - loss: 0.1305 - val_loss: 0.1313
+Epoch 68/100
+20000/20000 [==============================] - 2s 91us/step - loss: 0.1298 - val_loss: 0.1302
+Epoch 69/100
+20000/20000 [==============================] - 2s 75us/step - loss: 0.1292 - val_loss: 0.1298
+Epoch 70/100
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1285 - val_loss: 0.1290
+Epoch 71/100
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1279 - val_loss: 0.1284
+Epoch 72/100
+20000/20000 [==============================] - 1s 75us/step - loss: 0.1273 - val_loss: 0.1277
+Epoch 73/100
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1266 - val_loss: 0.1272
+Epoch 74/100
+20000/20000 [==============================] - 2s 76us/step - loss: 0.1260 - val_loss: 0.1265
+Epoch 75/100
+20000/20000 [==============================] - 2s 75us/step - loss: 0.1254 - val_loss: 0.1260
+Epoch 76/100
+20000/20000 [==============================] - 2s 75us/step - loss: 0.1249 - val_loss: 0.1254
+Epoch 77/100
+20000/20000 [==============================] - 2s 75us/step - loss: 0.1243 - val_loss: 0.1247
+Epoch 78/100
+20000/20000 [==============================] - 2s 76us/step - loss: 0.1237 - val_loss: 0.1243
+Epoch 79/100
+20000/20000 [==============================] - 2s 75us/step - loss: 0.1232 - val_loss: 0.1237
+Epoch 80/100
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1226 - val_loss: 0.1234
+Epoch 81/100
+20000/20000 [==============================] - 2s 79us/step - loss: 0.1221 - val_loss: 0.1226
+Epoch 82/100
+20000/20000 [==============================] - 2s 76us/step - loss: 0.1216 - val_loss: 0.1222
+Epoch 83/100
+20000/20000 [==============================] - 1s 74us/step - loss: 0.1211 - val_loss: 0.1215
+Epoch 84/100
+20000/20000 [==============================] - 2s 77us/step - loss: 0.1206 - val_loss: 0.1210
+Epoch 85/100
+20000/20000 [==============================] - 2s 76us/step - loss: 0.1201 - val_loss: 0.1205
+Epoch 86/100
+20000/20000 [==============================] - 1s 75us/step - loss: 0.1196 - val_loss: 0.1202
+Epoch 87/100
+20000/20000 [==============================] - 2s 76us/step - loss: 0.1191 - val_loss: 0.1196
+Epoch 88/100
+20000/20000 [==============================] - 2s 76us/step - loss: 0.1187 - val_loss: 0.1191
+Epoch 89/100
+20000/20000 [==============================] - 2s 82us/step - loss: 0.1182 - val_loss: 0.1187
+Epoch 90/100
+20000/20000 [==============================] - 1s 74us/step - loss: 0.1178 - val_loss: 0.1182
+Epoch 91/100
+20000/20000 [==============================] - 2s 85us/step - loss: 0.1173 - val_loss: 0.1177
+Epoch 92/100
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1169 - val_loss: 0.1173
+Epoch 93/100
+20000/20000 [==============================] - 2s 78us/step - loss: 0.1165 - val_loss: 0.1169
+Epoch 94/100
+20000/20000 [==============================] - 2s 112us/step - loss: 0.1161 - val_loss: 0.1165
+Epoch 95/100
+20000/20000 [==============================] - 2s 86us/step - loss: 0.1156 - val_loss: 0.1161
+Epoch 96/100
+20000/20000 [==============================] - 2s 101us/step - loss: 0.1153 - val_loss: 0.1158
+Epoch 97/100
+20000/20000 [==============================] - 2s 90us/step - loss: 0.1149 - val_loss: 0.1154
+Epoch 98/100
+20000/20000 [==============================] - 2s 83us/step - loss: 0.1145 - val_loss: 0.1150
+Epoch 99/100
+20000/20000 [==============================] - 2s 75us/step - loss: 0.1141 - val_loss: 0.1146
+Epoch 100/100
+20000/20000 [==============================] - 1s 74us/step - loss: 0.1138 - val_loss: 0.1143
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_100_train_2000_test_100.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_100_train_20000_test_100.png")) 1
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60963 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(60000, 784)
+(10000, 784)
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/10
+2018-05-05 00:05:32.551573: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:05:32.556988: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:05:32.563436: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:05:32.570407: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:05:32.580338: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:05:32.586691: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:05:32.594268: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:05:32.601454: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+60000/60000 [==============================] - 9s 147us/step - loss: 0.3613 - val_loss: 0.2710
+Epoch 2/10
+60000/60000 [==============================] - 5s 82us/step - loss: 0.2638 - val_loss: 0.2526
+Epoch 3/10
+60000/60000 [==============================] - 5s 82us/step - loss: 0.2413 - val_loss: 0.2281
+Epoch 4/10
+60000/60000 [==============================] - 5s 87us/step - loss: 0.2206 - val_loss: 0.2112
+Epoch 5/10
+60000/60000 [==============================] - 5s 88us/step - loss: 0.2066 - val_loss: 0.1994
+Epoch 6/10
+60000/60000 [==============================] - 5s 84us/step - loss: 0.1959 - val_loss: 0.1896
+Epoch 7/10
+60000/60000 [==============================] - 5s 90us/step - loss: 0.1869 - val_loss: 0.1815
+Epoch 8/10
+60000/60000 [==============================] - 5s 84us/step - loss: 0.1795 - val_loss: 0.1748
+Epoch 9/10
+60000/60000 [==============================] - 5s 90us/step - loss: 0.1733 - val_loss: 0.1692
+Epoch 10/10
+60000/60000 [==============================] - 5s 87us/step - loss: 0.1679 - val_loss: 0.1641
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/logs")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_200_test_10.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_20_test_10.png")) 1
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 60976 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(60000, 784)
+(10000, 784)
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/50
+2018-05-05 00:07:42.680689: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:07:42.688940: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:07:42.698686: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:07:42.710112: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:07:42.722876: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:07:42.733481: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:07:42.743080: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:07:42.753761: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+60000/60000 [==============================] - 12s 192us/step - loss: 0.3707 - val_loss: 0.2720
+Epoch 2/50
+60000/60000 [==============================] - 6s 94us/step - loss: 0.2653 - val_loss: 0.2552
+Epoch 3/50
+60000/60000 [==============================] - 5s 84us/step - loss: 0.2436 - val_loss: 0.2305
+Epoch 4/50
+60000/60000 [==============================] - 5s 86us/step - loss: 0.2229 - val_loss: 0.2135
+Epoch 5/50
+60000/60000 [==============================] - 5s 89us/step - loss: 0.2082 - val_loss: 0.2007
+Epoch 6/50
+60000/60000 [==============================] - 7s 112us/step - loss: 0.1969 - val_loss: 0.1909
+Epoch 7/50
+60000/60000 [==============================] - 6s 106us/step - loss: 0.1884 - val_loss: 0.1833
+Epoch 8/50
+60000/60000 [==============================] - 7s 112us/step - loss: 0.1814 - val_loss: 0.1768
+Epoch 9/50
+60000/60000 [==============================] - 6s 98us/step - loss: 0.1752 - val_loss: 0.1710
+Epoch 10/50
+60000/60000 [==============================] - 5s 90us/step - loss: 0.1697 - val_loss: 0.1659
+Epoch 11/50
+60000/60000 [==============================] - 5s 84us/step - loss: 0.1648 - val_loss: 0.1612
+Epoch 12/50
+60000/60000 [==============================] - 5s 84us/step - loss: 0.1604 - val_loss: 0.1570
+Epoch 13/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1564 - val_loss: 0.1532
+Epoch 14/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1527 - val_loss: 0.1496
+Epoch 15/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1493 - val_loss: 0.1465
+Epoch 16/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1463 - val_loss: 0.1434
+Epoch 17/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1436 - val_loss: 0.1409
+Epoch 18/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1410 - val_loss: 0.1386
+Epoch 19/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1388 - val_loss: 0.1363
+Epoch 20/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1366 - val_loss: 0.1341
+Epoch 21/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1346 - val_loss: 0.1321
+Epoch 22/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1327 - val_loss: 0.1302
+Epoch 23/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1308 - val_loss: 0.1284
+Epoch 24/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1290 - val_loss: 0.1267
+Epoch 25/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1273 - val_loss: 0.1248
+Epoch 26/50
+60000/60000 [==============================] - 5s 79us/step - loss: 0.1256 - val_loss: 0.1231
+Epoch 27/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1239 - val_loss: 0.1216
+Epoch 28/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1224 - val_loss: 0.1200
+Epoch 29/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1209 - val_loss: 0.1185
+Epoch 30/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1195 - val_loss: 0.1171
+Epoch 31/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1181 - val_loss: 0.1158
+Epoch 32/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1168 - val_loss: 0.1146
+Epoch 33/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1157 - val_loss: 0.1134
+Epoch 34/50
+60000/60000 [==============================] - 5s 85us/step - loss: 0.1145 - val_loss: 0.1123
+Epoch 35/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1135 - val_loss: 0.1114
+Epoch 36/50
+60000/60000 [==============================] - 5s 84us/step - loss: 0.1126 - val_loss: 0.1104
+Epoch 37/50
+60000/60000 [==============================] - 5s 83us/step - loss: 0.1117 - val_loss: 0.1096
+Epoch 38/50
+60000/60000 [==============================] - 5s 84us/step - loss: 0.1109 - val_loss: 0.1088
+Epoch 39/50
+60000/60000 [==============================] - 5s 87us/step - loss: 0.1101 - val_loss: 0.1081
+Epoch 40/50
+60000/60000 [==============================] - 6s 93us/step - loss: 0.1094 - val_loss: 0.1074
+Epoch 41/50
+60000/60000 [==============================] - 5s 83us/step - loss: 0.1087 - val_loss: 0.1068
+Epoch 42/50
+60000/60000 [==============================] - 5s 87us/step - loss: 0.1081 - val_loss: 0.1062
+Epoch 43/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1076 - val_loss: 0.1056
+Epoch 44/50
+60000/60000 [==============================] - 5s 83us/step - loss: 0.1071 - val_loss: 0.1051
+Epoch 45/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1066 - val_loss: 0.1046
+Epoch 46/50
+60000/60000 [==============================] - 5s 82us/step - loss: 0.1061 - val_loss: 0.1042
+Epoch 47/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1057 - val_loss: 0.1038
+Epoch 48/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1052 - val_loss: 0.1034
+Epoch 49/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1048 - val_loss: 0.1030
+Epoch 50/50
+60000/60000 [==============================] - 5s 81us/step - loss: 0.1045 - val_loss: 0.1026
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_50_train_20000_test_1000.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_50_train_0000_test_1000.png")) 1
+
+S:\git\mnist-not-mnist>cd s:\git\mnist-not-mnist && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\python.exe C:\Users\shrung\.vscode\extensions\ms-python.python-2018.4.0\pythonFiles\PythonTools\visualstudio_py_launcher.py s:\git\mnist-not-mnist 61084 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput s:\git\mnist-not-mnist\mnist\autoencoder.py "
+C:\Users\shrung\AppData\Local\Continuum\miniconda3\envs\deeplearning\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+(60000, 784)
+(10000, 784)
+(60000, 784)
+(10000, 784)
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/100
+2018-05-05 00:19:25.669900: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:19:25.679634: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:19:25.686973: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:19:25.696232: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:19:25.706716: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:19:25.714067: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:19:25.721674: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-05 00:19:25.729622: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+60000/60000 [==============================] - 10s 163us/step - loss: 0.3596 - val_loss: 0.2712
+Epoch 2/100
+60000/60000 [==============================] - 7s 108us/step - loss: 0.2640 - val_loss: 0.2530
+Epoch 3/100
+60000/60000 [==============================] - 6s 100us/step - loss: 0.2432 - val_loss: 0.2313
+Epoch 4/100
+60000/60000 [==============================] - 6s 95us/step - loss: 0.2238 - val_loss: 0.2142
+Epoch 5/100
+60000/60000 [==============================] - 5s 87us/step - loss: 0.2090 - val_loss: 0.2015
+Epoch 6/100
+60000/60000 [==============================] - 6s 97us/step - loss: 0.1979 - val_loss: 0.1918
+Epoch 7/100
+60000/60000 [==============================] - 6s 96us/step - loss: 0.1893 - val_loss: 0.1841
+Epoch 8/100
+60000/60000 [==============================] - 5s 87us/step - loss: 0.1821 - val_loss: 0.1775
+Epoch 9/100
+60000/60000 [==============================] - 5s 85us/step - loss: 0.1759 - val_loss: 0.1717
+Epoch 10/100
+60000/60000 [==============================] - 6s 99us/step - loss: 0.1703 - val_loss: 0.1663
+Epoch 11/100
+60000/60000 [==============================] - 6s 104us/step - loss: 0.1652 - val_loss: 0.1615
+Epoch 12/100
+60000/60000 [==============================] - 7s 109us/step - loss: 0.1605 - val_loss: 0.1568
+Epoch 13/100
+60000/60000 [==============================] - 5s 88us/step - loss: 0.1562 - val_loss: 0.1527
+Epoch 14/100
+60000/60000 [==============================] - 5s 88us/step - loss: 0.1523 - val_loss: 0.1490
+Epoch 15/100
+60000/60000 [==============================] - 5s 88us/step - loss: 0.1488 - val_loss: 0.1456
+Epoch 16/100
+60000/60000 [==============================] - 5s 87us/step - loss: 0.1455 - val_loss: 0.1425
+Epoch 17/100
+60000/60000 [==============================] - 6s 92us/step - loss: 0.1426 - val_loss: 0.1396
+Epoch 18/100
+60000/60000 [==============================] - 6s 101us/step - loss: 0.1398 - val_loss: 0.1372
+Epoch 19/100
+60000/60000 [==============================] - 6s 99us/step - loss: 0.1373 - val_loss: 0.1345
+Epoch 20/100
+60000/60000 [==============================] - 6s 102us/step - loss: 0.1349 - val_loss: 0.1322
+Epoch 21/100
+60000/60000 [==============================] - 6s 106us/step - loss: 0.1327 - val_loss: 0.1301
+Epoch 22/100
+60000/60000 [==============================] - 5s 90us/step - loss: 0.1306 - val_loss: 0.1281
+Epoch 23/100
+60000/60000 [==============================] - 6s 101us/step - loss: 0.1287 - val_loss: 0.1261
+Epoch 24/100
+60000/60000 [==============================] - 7s 115us/step - loss: 0.1268 - val_loss: 0.1242
+Epoch 25/100
+60000/60000 [==============================] - 5s 86us/step - loss: 0.1251 - val_loss: 0.1225
+Epoch 26/100
+60000/60000 [==============================] - 5s 90us/step - loss: 0.1234 - val_loss: 0.1209
+Epoch 27/100
+60000/60000 [==============================] - 5s 85us/step - loss: 0.1218 - val_loss: 0.1194
+Epoch 28/100
+60000/60000 [==============================] - 6s 94us/step - loss: 0.1203 - val_loss: 0.1179
+Epoch 29/100
+60000/60000 [==============================] - 5s 84us/step - loss: 0.1189 - val_loss: 0.1166
+Epoch 30/100
+60000/60000 [==============================] - 5s 87us/step - loss: 0.1176 - val_loss: 0.1153
+Epoch 31/100
+60000/60000 [==============================] - 5s 88us/step - loss: 0.1164 - val_loss: 0.1141
+Epoch 32/100
+60000/60000 [==============================] - 5s 89us/step - loss: 0.1152 - val_loss: 0.1129
+Epoch 33/100
+60000/60000 [==============================] - 6s 95us/step - loss: 0.1141 - val_loss: 0.1119
+Epoch 34/100
+60000/60000 [==============================] - 5s 84us/step - loss: 0.1131 - val_loss: 0.1108
+Epoch 35/100
+60000/60000 [==============================] - 6s 92us/step - loss: 0.1121 - val_loss: 0.1099
+Epoch 36/100
+60000/60000 [==============================] - 8s 127us/step - loss: 0.1112 - val_loss: 0.1090
+Epoch 37/100
+60000/60000 [==============================] - 7s 117us/step - loss: 0.1104 - val_loss: 0.1082
+Epoch 38/100
+60000/60000 [==============================] - 8s 133us/step - loss: 0.1096 - val_loss: 0.1074
+Epoch 39/100
+60000/60000 [==============================] - 6s 94us/step - loss: 0.1088 - val_loss: 0.1067
+Epoch 40/100
+60000/60000 [==============================] - 6s 105us/step - loss: 0.1081 - val_loss: 0.1061
+Epoch 41/100
+60000/60000 [==============================] - 7s 110us/step - loss: 0.1075 - val_loss: 0.1055
+Epoch 42/100
+60000/60000 [==============================] - 8s 128us/step - loss: 0.1069 - val_loss: 0.1049
+Epoch 43/100
+60000/60000 [==============================] - 8s 129us/step - loss: 0.1063 - val_loss: 0.1043
+Epoch 44/100
+60000/60000 [==============================] - 8s 127us/step - loss: 0.1058 - val_loss: 0.1038
+Epoch 45/100
+60000/60000 [==============================] - 7s 115us/step - loss: 0.1053 - val_loss: 0.1034
+Epoch 46/100
+60000/60000 [==============================] - 7s 117us/step - loss: 0.1049 - val_loss: 0.1029
+Epoch 47/100
+60000/60000 [==============================] - 7s 124us/step - loss: 0.1044 - val_loss: 0.1025
+Epoch 48/100
+60000/60000 [==============================] - 8s 126us/step - loss: 0.1040 - val_loss: 0.1021
+Epoch 49/100
+60000/60000 [==============================] - 8s 130us/step - loss: 0.1037 - val_loss: 0.1018
+Epoch 50/100
+60000/60000 [==============================] - 8s 129us/step - loss: 0.1033 - val_loss: 0.1015
+Epoch 51/100
+60000/60000 [==============================] - 7s 116us/step - loss: 0.1030 - val_loss: 0.1011
+Epoch 52/100
+60000/60000 [==============================] - 5s 89us/step - loss: 0.1027 - val_loss: 0.1008
+Epoch 53/100
+60000/60000 [==============================] - 6s 95us/step - loss: 0.1024 - val_loss: 0.1006
+Epoch 54/100
+60000/60000 [==============================] - 5s 91us/step - loss: 0.1021 - val_loss: 0.1003
+Epoch 55/100
+60000/60000 [==============================] - 6s 106us/step - loss: 0.1018 - val_loss: 0.1000
+Epoch 56/100
+60000/60000 [==============================] - 6s 102us/step - loss: 0.1016 - val_loss: 0.0998
+Epoch 57/100
+60000/60000 [==============================] - 6s 96us/step - loss: 0.1013 - val_loss: 0.0996
+Epoch 58/100
+60000/60000 [==============================] - 5s 91us/step - loss: 0.1011 - val_loss: 0.0994
+Epoch 59/100
+60000/60000 [==============================] - 7s 120us/step - loss: 0.1009 - val_loss: 0.0992
+Epoch 60/100
+60000/60000 [==============================] - 6s 108us/step - loss: 0.1007 - val_loss: 0.0990
+Epoch 61/100
+60000/60000 [==============================] - 5s 88us/step - loss: 0.1005 - val_loss: 0.0988
+Epoch 62/100
+60000/60000 [==============================] - 6s 93us/step - loss: 0.1003 - val_loss: 0.0986
+Epoch 63/100
+60000/60000 [==============================] - 7s 113us/step - loss: 0.1002 - val_loss: 0.0985
+Epoch 64/100
+60000/60000 [==============================] - 7s 109us/step - loss: 0.1000 - val_loss: 0.0983
+Epoch 65/100
+60000/60000 [==============================] - 6s 108us/step - loss: 0.0998 - val_loss: 0.0981
+Epoch 66/100
+60000/60000 [==============================] - 8s 132us/step - loss: 0.0997 - val_loss: 0.0980
+Epoch 67/100
+60000/60000 [==============================] - 6s 103us/step - loss: 0.0995 - val_loss: 0.0979
+Epoch 68/100
+60000/60000 [==============================] - 5s 88us/step - loss: 0.0994 - val_loss: 0.0977
+Epoch 69/100
+60000/60000 [==============================] - 6s 93us/step - loss: 0.0993 - val_loss: 0.0976
+Epoch 70/100
+60000/60000 [==============================] - 5s 89us/step - loss: 0.0991 - val_loss: 0.0975
+Epoch 71/100
+60000/60000 [==============================] - 5s 86us/step - loss: 0.0990 - val_loss: 0.0974
+Epoch 72/100
+60000/60000 [==============================] - 5s 87us/step - loss: 0.0989 - val_loss: 0.0972
+Epoch 73/100
+60000/60000 [==============================] - 5s 85us/step - loss: 0.0988 - val_loss: 0.0972
+Epoch 74/100
+60000/60000 [==============================] - 5s 90us/step - loss: 0.0987 - val_loss: 0.0970
+Epoch 75/100
+60000/60000 [==============================] - 5s 84us/step - loss: 0.0986 - val_loss: 0.0969
+Epoch 76/100
+60000/60000 [==============================] - 6s 94us/step - loss: 0.0985 - val_loss: 0.0968
+Epoch 77/100
+60000/60000 [==============================] - 5s 84us/step - loss: 0.0984 - val_loss: 0.0968
+Epoch 78/100
+60000/60000 [==============================] - 6s 94us/step - loss: 0.0983 - val_loss: 0.0967
+Epoch 79/100
+60000/60000 [==============================] - 5s 87us/step - loss: 0.0982 - val_loss: 0.0966
+Epoch 80/100
+60000/60000 [==============================] - 5s 84us/step - loss: 0.0981 - val_loss: 0.0965
+Epoch 81/100
+60000/60000 [==============================] - 5s 83us/step - loss: 0.0980 - val_loss: 0.0964
+Epoch 82/100
+60000/60000 [==============================] - 5s 83us/step - loss: 0.0979 - val_loss: 0.0963
+Epoch 83/100
+60000/60000 [==============================] - 5s 83us/step - loss: 0.0978 - val_loss: 0.0963
+Epoch 84/100
+60000/60000 [==============================] - 5s 84us/step - loss: 0.0978 - val_loss: 0.0962
+Epoch 85/100
+60000/60000 [==============================] - 5s 85us/step - loss: 0.0977 - val_loss: 0.0961
+Epoch 86/100
+60000/60000 [==============================] - 5s 85us/step - loss: 0.0976 - val_loss: 0.0961
+Epoch 87/100
+60000/60000 [==============================] - 5s 85us/step - loss: 0.0976 - val_loss: 0.0960
+Epoch 88/100
+60000/60000 [==============================] - 5s 85us/step - loss: 0.0975 - val_loss: 0.0959
+Epoch 89/100
+60000/60000 [==============================] - 5s 85us/step - loss: 0.0974 - val_loss: 0.0959
+Epoch 90/100
+60000/60000 [==============================] - 5s 82us/step - loss: 0.0974 - val_loss: 0.0958
+Epoch 91/100
+60000/60000 [==============================] - 5s 86us/step - loss: 0.0973 - val_loss: 0.0958
+Epoch 92/100
+60000/60000 [==============================] - 5s 90us/step - loss: 0.0973 - val_loss: 0.0957
+Epoch 93/100
+60000/60000 [==============================] - 6s 97us/step - loss: 0.0972 - val_loss: 0.0957
+Epoch 94/100
+60000/60000 [==============================] - 7s 111us/step - loss: 0.0972 - val_loss: 0.0956
+Epoch 95/100
+60000/60000 [==============================] - 6s 95us/step - loss: 0.0971 - val_loss: 0.0956
+Epoch 96/100
+60000/60000 [==============================] - 6s 98us/step - loss: 0.0971 - val_loss: 0.0955
+Epoch 97/100
+60000/60000 [==============================] - 5s 85us/step - loss: 0.0970 - val_loss: 0.0955
+Epoch 98/100
+60000/60000 [==============================] - 5s 86us/step - loss: 0.0970 - val_loss: 0.0954
+Epoch 99/100
+60000/60000 [==============================] - 6s 95us/step - loss: 0.0969 - val_loss: 0.0954
+Epoch 100/100
+60000/60000 [==============================] - 5s 87us/step - loss: 0.0969 - val_loss: 0.0954
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///C:/Users/shrung/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/logs")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/Figure_1.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_100_train_20000_test_1000.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_50_train_2000_test_100.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_2000_test_100.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_20000_test_1000.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_10_train_60000_test_10000.png")) 1
+QWindowsNativeFileDialogBase::onSelectionChange (QUrl("file:///S:/git/mnist-not-mnist/mnist/figures/epoch_100_train_60000_test_10000.png")) 1
