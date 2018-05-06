@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>8c63db55-52d4-4384-add9-d95c1c97cbd9</ProjectGuid>
+    <ProjectGuid>9041ab0c-71d6-4983-b772-9221c5589492</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mnist.py</StartupFile>
+    <StartupFile>not_mnist.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>mnist</Name>
-    <RootNamespace>mnist</RootNamespace>
+    <Name>not_mnist</Name>
+    <RootNamespace>not_mnist</RootNamespace>
     <InterpreterId>Global|VisualStudio|deeplearning</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,15 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="autoencoder.py" />
-    <Compile Include="install_mnist.py" />
-    <Compile Include="keras_mnist_cnn.py" />
-    <Compile Include="keras_mnist_mlp.py" />
-    <Compile Include="mnist.py" />
-    <Compile Include="mnist_utils.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|VisualStudio|deeplearning" />
+    <Compile Include="constants.py" />
+    <Compile Include="not_mnist.py" />
+    <Compile Include="not_mnist_analysis_logistic_regression.py" />
+    <Compile Include="not_mnist_analysis_logistic_regression_keras.py" />
+    <Compile Include="not_mnist_analysis_stochastic_gradient_descent.py" />
+    <Compile Include="not_mnist_helper.py" />
+    <Compile Include="not_mnist_setup.py" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\common\common.pyproj">
@@ -38,6 +36,9 @@
       <Project>{8b75cef9-94e8-45a4-9462-8efc0afba1b4}</Project>
       <Private>True</Private>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|deeplearning" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

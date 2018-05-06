@@ -1,2 +1,2 @@
-
-VARIABLE_NAME = 'aaa'
+# Folder paths
+DATA_FOLDER_ROOT = '.\data'

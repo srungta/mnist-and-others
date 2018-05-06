@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "common", "common\common.pyp
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "mnist", "mnist\mnist.pyproj", "{8C63DB55-52D4-4384-ADD9-D95C1C97CBD9}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "not_mnist", "not_mnist\not_mnist.pyproj", "{9041AB0C-71D6-4983-B772-9221C5589492}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{8B75CEF9-94E8-45A4-9462-8EFC0AFBA1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C63DB55-52D4-4384-ADD9-D95C1C97CBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C63DB55-52D4-4384-ADD9-D95C1C97CBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9041AB0C-71D6-4983-B772-9221C5589492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9041AB0C-71D6-4983-B772-9221C5589492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
