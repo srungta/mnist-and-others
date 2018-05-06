@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="constants.py" />
+    <Compile Include="data_helper.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pickle_helper.py" />
   </ItemGroup>
   <ItemGroup>

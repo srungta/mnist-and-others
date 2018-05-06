@@ -1,21 +1,16 @@
 from keras.layers import Input, Dense
 from keras.models import Model
 import numpy as np
-from common import pickle_helper as ph 
 
-
-def flatten_dataset(dataset):
-    shape = dataset.shape
-    return np.reshape(dataset, (shape[0], (shape[1]*shape[2])))
-
+from pickle_helper import read_from_pickle
+from constants import MNIST_NORMALISED_PICKLE
 
 # HYPERPARAMETERS
-epochs = 100
+epochs = 10
 encoding_dim = 32
 batch_size = 256
-train_size = 60000
-test_size = 10000
-pickle_file = 'mnist_normalised.pickle'
+train_size = 6000
+test_size = 1000
 
 # SET UP MODELS
 
@@ -34,7 +29,7 @@ decoder = Model(encoded_input, decoder_layer(encoded_input))
 autoencoder.compile(optimizer='adadelta', loss='binary_crossentropy')
 
 # SET UP DATA
-dataset = ph.read_from_pickle(pickle_file)
+dataset = read_from_pickle(MNIST_NORMALISED_PICKLE)
 x_train = dataset['x_train']
 x_test = dataset['x_test']
 
