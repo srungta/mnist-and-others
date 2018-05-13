@@ -33,17 +33,18 @@ from data_helper import plot_confusion_matrix, print_dataset_details
 # Global initialisations
 np.random.seed(2)
 sns.set(style='white', context='notebook', palette='deep')
-reduce_size = True
+reduce_size = False
 
 # Data preparation
 ## Load data
 train = pd.read_csv(MNIST_KAGGLE_TRAIN)
 test = pd.read_csv(MNIST_KAGGLE_TEST)
-
+test_size = 28000
 # Reduce data size for prototype
 if reduce_size:
     train = train.head(1000)
     test = test.head(100)
+    test_size = 100
 
 
 Y_train = train.label
@@ -71,7 +72,7 @@ Y_train = to_categorical(Y_train, num_classes=10)
 ## Split training and valdiation set
 random_seed = 2
 
-X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size = 0.1, random_state = random_seed)
+X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size = 0.2, random_state = random_seed)
 # Modelling
 ## Define the model
 model = Sequential()
@@ -97,8 +98,8 @@ model.compile(optimizer= optimiser, loss='categorical_crossentropy', metrics=['a
 model.summary()
 
 learning_rate_reduction = ReduceLROnPlateau(monitor='val_acc', factor=0.5, patience = 3, verbose=1, min_lr = 0.00001)
-epochs = 10
-batch_size = 86
+epochs = 2
+batch_size = 64
 
 ## Data augmentation
 datagen = ImageDataGenerator(featurewise_center=False, samplewise_center=False,featurewise_std_normalization=False,samplewise_std_normalization=False,
@@ -176,5 +177,5 @@ plt.show()
 results = model.predict(test)
 results = np.argmax(results, axis = 1)
 results = pd.Series(results, name='Label')
-submission = pd.concat([pd.Series(range(1,28001), name='ImageId'), results], axis = 1)
+submission = pd.concat([pd.Series(range(1,test_size+1), name='ImageId'), results], axis = 1)
 submission.to_csv('cnn_mnist.csv', index = False)
