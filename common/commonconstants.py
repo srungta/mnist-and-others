@@ -7,6 +7,7 @@ DATA_DIR = os.path.abspath(os.path.join(__this_folder, '..', 'data'))
 #--------- MNIST ---------
 MNIST_DATA_DIR = os.path.join(DATA_DIR,'mnist')
 MNIST_PICKLES_DIR = os.path.join(MNIST_DATA_DIR,'pickles')
+MNIST_KAGGLE_DIR = os.path.join(MNIST_DATA_DIR,'kaggle')
 
 #--------- NOT MNIST ---------
 NOT_MNIST_DATA_DIR = os.path.join(DATA_DIR,'not_mnist')
@@ -18,4 +19,5 @@ NOT_MNIST_IMAGES_DIR = os.path.join(NOT_MNIST_DATA_DIR,'images')
 #----------- MNIST ---------
 MNIST_FLATTENED_NORMALISED_PICKLE = os.path.join(MNIST_PICKLES_DIR,'mnist_normalised.pickle')
 MNIST_PICKLE = os.path.join(MNIST_PICKLES_DIR,'mnist.pickle')
-
+MNIST_KAGGLE_TRAIN = os.path.join(MNIST_KAGGLE_DIR,'train.csv')
+MNIST_KAGGLE_TEST = os.path.join(MNIST_KAGGLE_DIR,'test.csv')

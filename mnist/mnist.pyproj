@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8c63db55-52d4-4384-add9-d95c1c97cbd9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>src\keras_cnn.py</StartupFile>
+    <StartupFile>src\keras_cnn_kaggle.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="src\autoencoder.py" />
+    <Compile Include="src\keras_cnn_kaggle.py">
+      <SubType>
+      </SubType>
+    </Compile>
     <Compile Include="src\mnist_helper.py">
       <SubType>Code</SubType>
     </Compile>
