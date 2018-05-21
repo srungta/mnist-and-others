@@ -14,7 +14,6 @@ def save_as_pickle(data, pickle_file):
         print('Unable to save data to', pickle_file, ':', e)
         raise
 
-
 import os.path
 def file_exists(filename):
     return os.path.isfile(filename) 
